@@ -1,0 +1,9 @@
+{
+  "description": "DFIR Report Threat Actor Tools",
+  "icon": "file-code",
+  "name": "DFIR Report Tools",
+  "namespace": "dfirreport",
+  "type": "dfirreport-ta-tools",
+  "uuid": "dbdab3e8-50ea-4cf4-9c91-4084ca6b9571",
+  "version": 1
+}

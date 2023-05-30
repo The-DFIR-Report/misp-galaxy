@@ -1,0 +1,33 @@
+{
+  "authors": [
+    "The DFIR Report"
+  ],
+  "category": "tool",
+  "description": "DFIR Report Threat Actor Tools",
+  "icon": "file-code",
+  "name": "DFIR Report Tools",
+  "namespace": "dfirreport",
+  "type": "dfirreport-ta-tools",
+  "uuid": "dbdab3e8-50ea-4cf4-9c91-4084ca6b9571",
+  "values": [
+   {
+	   "description": "Remote Access Software used for legitimate administration but also favored by Threat Actors",
+	   "meta": {
+		   "refs": [
+			   "https://anydesk.com/en",
+			   "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+			   "https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/",
+			   "https://thedfirreport.com/2022/09/26/bumblebee-round-two/",
+			   "https://thedfirreport.com/2022/08/08/bumblebee-roasts-its-way-to-domain-admin/",
+			   "https://thedfirreport.com/2021/12/13/diavol-ransomware/"
+			   ],
+        "synonyms": [],
+        "type": []
+      },
+      "uuid": "139aa723-d2b1-4afe-8a89-ae6d257fd332",
+      "value": "Anydesk"
+   }
+   ],
+   "version": 1
+}
+
