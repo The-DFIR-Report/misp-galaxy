@@ -3878,6 +3878,9 @@
         "extensions": [
           ".karma"
         ],
+        "links": [
+          "http://3nvzqyo6l4wkrzumzu5aod7zbosq4ipgf7ifgj3hsvbcr5vcasordvqd.onion"
+        ],
         "payment-method": "Bitcoin",
         "price": "0.5",
         "ransomnotes-filenames": [
@@ -11475,6 +11478,9 @@
     {
       "description": "The ransomware does not use a customized desktop wallpaper to signal its presence, and the only way to discover that SynAck has infected your PC is by the ransom notes dropped on the user's desktop, named in the format: RESTORE_INFO-[id].txt. For example: RESTORE_INFO-4ABFA0EF.txt\n In addition, SynAck also appends its own extension at the end of all files it encrypted. This file extensions format is ten random alpha characters for each file. For example: test.jpg.XbMiJQiuoh. Experts believe the group behind SynAck uses RDP brute-force attacks to access remote computers and manually download and install the ransomware.",
       "meta": {
+        "links": [
+          "http://xqkz2rmrqkeqf6sjbrb47jfwnqxcd4o2zvaxxzrpbh2piknms37rw2ad.onion/"
+        ],
         "payment-method": "Bitcoin",
         "price": "2 100 $",
         "ransomnotes-filenames": [
@@ -13830,6 +13836,11 @@
     {
       "description": "Attackers are actively exploiting a recently disclosed vulnerability in Oracle WebLogic to install a new variant of ransomware called \"Sodinokibi.\" Sodinokibi attempts to encrypt data in a user's directory and delete shadow copy backups to make data recovery more difficult. Oracle first patched the issue on April 26, outside of their normal patch cycle, and assigned it CVE-2019-2725. This vulnerability is easy for attackers to exploit, as anyone with HTTP access to the WebLogic server could carry out an attack. Because of this, the bug has a CVSS score of 9.8/10. Attackers have been making use of this exploit in the wild since at least April 17. Cisco's Incident Response (IR) team, along with Cisco Talos, are actively investigating these attacks and Sodinokibi.",
       "meta": {
+        "links": [
+          "http://dnpscnbaix6nkwvystl3yxglz7nteicqrou3t75tpcc5532cztc46qyd.onion/",
+          "http://aplebzu47wgazapdqks6vrcv6zcnjppkbxbr6wketf56nf6aq2nmyoyd.onion/",
+          "http://blogxxu75w63ujqarv476otld7cyjkq4yoswzt4ijadkjwvg3vrvd5yd.onion/Blog"
+        ],
         "refs": [
           "https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html"
         ],
@@ -13870,12 +13881,24 @@
     {
       "description": "A new ransomware family dubbed “Nemty” for the extension it adds to encrypted files has recently surfaced in the wild. According to a report from Bleeping Computer, New York-based reverse engineer Vitali Kremez posits that Nemty is possibly delivered through exposed remote desktop connections.",
       "meta": {
+        "links": [
+          "http://zjoxyw5mkacojk5ptn2iprkivg5clow72mjkyk5ttubzxprjjnwapkad.onion"
+        ],
         "payment-method": "Bitcoin",
         "price": "1000 $",
         "refs": [
           "https://www.trendmicro.com/vinfo/us/security/news/cyber-attacks/nemty-ransomware-possibly-spreads-through-exposed-remote-desktop-connections"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "d12f369c-f776-468a-8abf-8000b1b30642",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "related-to"
+        }
+      ],
       "uuid": "5fb75933-1ed5-4512-a062-d39865eedab0",
       "value": "Nemty"
     },
@@ -13933,9 +13956,18 @@
       "description": "We have dubbed this new ransomware DoppelPaymer because it shares most of its code with the BitPaymer ransomware operated by INDRIK SPIDER. However, there are a number of differences between DoppelPaymer and BitPaymer, which may signify that one or more members of INDRIK SPIDER have split from the group and forked the source code of both Dridex and BitPaymer to start their own Big Game Hunting ransomware operation.",
       "meta": {
         "encryption": "AES",
+        "links": [
+          "http://hpoo4dosa3x4ognfxpqcrjwnsigvslm7kv6hvmhh2yqczaxy3j6qnwad.onion/"
+        ],
         "refs": [
           "https://www.crowdstrike.com/blog/doppelpaymer-ransomware-and-dridex-2/",
           "https://malpedia.caad.fkie.fraunhofer.de/details/win.doppelpaymer"
+        ],
+        "synonyms": [
+          "Pay OR Grief",
+          "BitPaymer",
+          "IEncrypt",
+          "FriedEx"
         ]
       },
       "uuid": "3d8989dc-9a10-4cae-ab24-ff0abed487f4",
@@ -13956,6 +13988,9 @@
       "description": "Maze Ransomware encrypts files and makes them inaccessible while adding a custom extension containing part of the ID of the victim. The ransom note is placed inside a text file and an htm file. There are a few different extensions appended to files which are randomly generated.",
       "meta": {
         "encryption": "ChaCha20 and RSA",
+        "links": [
+          "http://xfr3txoorcyy7tikjgj5dk3rvo3vsrpyaxnclyohkbfp3h277ap4tiad.onion"
+        ],
         "refs": [
           "https://malpedia.caad.fkie.fraunhofer.de/details/win.maze",
           "https://www.bleepingcomputer.com/news/security/maze-ransomware-now-delivered-by-spelevo-exploit-kit/",
@@ -14015,6 +14050,10 @@
           ".Clop",
           ".Ciop",
           ".Clop2"
+        ],
+        "links": [
+          "http://ekbgzchl6x2ias37.onion",
+          "http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/"
         ],
         "refs": [
           "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-001.pdf",
@@ -14118,6 +14157,9 @@
     {
       "description": "Detected in April 2019. Known for paralyzing the cities of Baltimore and Greenville. Probably also exfiltrate data",
       "meta": {
+        "links": [
+          "https://robinhoodleaks.tumblr.com"
+        ],
         "refs": [
           "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-001.pdf"
         ],
@@ -14199,6 +14241,9 @@
           ".locked",
           ".pysa"
         ],
+        "links": [
+          "http://pysa2bitc5ldeyfak4seeruqymqs4sj5wt5qkcq7aoyg4h2acqieywad.onion/partners.html"
+        ],
         "ransomnotes-filenames": [
           "RECOVER_YOUR_DATA.txt"
         ],
@@ -14257,6 +14302,9 @@
         "extensions": [
           ".encrypt"
         ],
+        "links": [
+          "http://veqlxhq7ub5qze3qy56zx2cig2e6tzsgxdspkubwbayqije6oatma6id.onion"
+        ],
         "ransomnotes": [
           "All your data has been locked(crypted).\n​How to unclock(decrypt) instruction located in this TOR website:\nhttp://sg3dwqfpnr4sl5hh.onion/order/[Bitcoin address]\nUse TOR browser for access .onion websites.\nhttps://duckduckgo.com/html?q=tor+browser+how+to\n\nDo NOT remove this file and NOT remove last line in this file!\n[base64 encoded encrypted data]"
         ],
@@ -14310,6 +14358,10 @@
     {
       "description": "SunCrypt ransomware was discovered in October 2019 and in August 2020 it was added to Maze ransomware’s cartel. It also follows some of Maze’s tactics, techniques, and procedures. SunCrypt is launched and installed using an obfuscated PowerShell script. Infected email attachments (macros), torrent websites, malicious ads act as carriers for this ransomware.",
       "meta": {
+        "links": [
+          "http://x2miyuiwpib2imjr5ykyjngdu7v6vprkkhjltrk4qafymtawey4qzwid.onion/",
+          "http://nbzzb6sa6xuura2z.onion"
+        ],
         "ransomnotes-filenames": [
           "YOUR_FILES_ARE_ENCRYPTED.HTML"
         ],
@@ -14336,6 +14388,9 @@
           ".abcd",
           ".LockBit"
         ],
+        "links": [
+          "http://lockbitkodidilol.onion"
+        ],
         "ransomnotes-filenames": [
           "Restore-My-Files.txt"
         ],
@@ -14350,6 +14405,15 @@
           "ABCD ransomware"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "c09f73fd-c3c3-42b1-b355-b03ca4941110",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "8eda8bf1-db5a-412d-8511-45e2f7621d51",
       "value": "LockBit"
     },
@@ -14380,13 +14444,17 @@
         ]
       },
       "uuid": "c52a65d5-9bea-4a09-a81b-7f789ab48ce0",
-      "value": "Babuk Ranomsware"
+      "value": "Babuk Ransomsware"
     },
     {
       "description": "Darkside, the latest ransomware operation to emerge has been attacking organizations beginning earlier this month. Darkside’s customized attacks on companies have already garnered them million-dollar payouts.\nThrough their “press release”, these threat actors have claimed to be affiliated with prior ransomware operations making millions of dollars. They stated that they created this new product to match their needs, as prior products didn’t.\n Darkside explains that they only target companies they know that can pay the specified ransom. They have allegedly promised that they will not attack the following sectors. They include medicine, education, non-profit organizations, and the government sector.",
       "meta": {
         "colt-average": "11d",
         "colt-median": "7d",
+        "links": [
+          "http://blackmax7su6mbwtcyo3xwtpfxpm356jjqrs34y4crcytpw7mifuedyd.onion/",
+          "http://darksidc3iux462n6yunevoag52ntvwp6wulaz3zirkmh4cnz6hhj7id.onion"
+        ],
         "refs": [
           "https://www.digitalshadows.com/blog-and-research/darkside-the-new-ransomware-group-behind-highly-targeted-attacks/",
           "https://www.wired.com/story/ransomware-gone-corporate-darkside-where-will-it-end/",
@@ -14409,6 +14477,9 @@
           ".txd0t",
           ".dbe",
           ".0s"
+        ],
+        "links": [
+          "http://rnsm777cdsjrsdlbs4v5qoeppu3px6sb2igmh53jzrx7ipcrbjz5b2ad.onion/"
         ],
         "ransomnotes": [
           "Greetings, Texas Department of Transportation!\nRead this message CAREFULLY and contact someone from IT department..\nYour files are securely ENCRYPTED.\nNo third party decryption software EXISTS.\nMODIFICATION or RENAMING encrypted files may cause decryption failure.\nYou can send us an encrypted file (not greater than 400KB) and we will decrypt it FOR FREE, so you have no doubts in possibility to restore all Files\nFrom all aFFected systems ANY TIME.\nEncrypted File SHOULD NOT contain sensitive inFormation (technical, backups, databases, large documents).\nThe rest oF data will be available aFter the PAYMENT.\ninfrastructure rebuild will cost you MUCH more.\nContact us ONLY if you officially represent the whole affected network.\nThe ONLY attachments we accept are non archived encrypted files For test decryption.\nSpeak ENGLISH when contacting us.\nMail us: ***@protonmail.com\nWe kindly ask you not to use GMAIL, YAHOO or LIVE to contact us.\nThe PRICE depends on how quickly you do it. "
@@ -14470,6 +14541,11 @@
     {
       "description": "Ragnar Locker is a ransomware identified in December 2019 that targetscorporate networks inBig Game Huntingtargeted attacks. This reportpresents recent elements regarding this ransomware.",
       "meta": {
+        "links": [
+          "http://rgleak7op734elep.onion",
+          "http://rgleaktxuey67yrgspmhvtnrqtgogur35lwdrup4d3igtbm3pupc4lyd.onion/",
+          "http://p6o7m73ujalhgkiv.onion"
+        ],
         "refs": [
           "https://www.bleepingcomputer.com/news/security/ragnar-locker-ransomware-targets-msp-enterprise-support-tools/",
           "https://news.sophos.com/en-us/2020/05/21/ragnar-locker-ransomware-deploys-virtual-machine-to-dodge-security/",
@@ -20364,11 +20440,6 @@
     },
     {
       "description": "Ransomware",
-      "uuid": "2a95f6b9-3ce7-40b9-bda8-0832e0d9d07f",
-      "value": "Cuba"
-    },
-    {
-      "description": "Ransomware",
       "uuid": "ed087a5a-41f7-4997-9701-ef46c984d89d",
       "value": "Curumim"
     },
@@ -21105,7 +21176,10 @@
     {
       "description": "ransomware",
       "meta": {
-        "date": "December 2020"
+        "date": "December 2020",
+        "links": [
+          "http://ixltdyumdlthrtgx.onion"
+        ]
       },
       "related": [
         {
@@ -21186,6 +21260,15 @@
     },
     {
       "description": "ransomware",
+      "related": [
+        {
+          "dest-uuid": "2019d150-6073-4e3f-b6a5-64b919a87ce9",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "2e4f26d6-f220-4877-be0e-45059b0f8eeb",
       "value": "Hydra"
     },
@@ -21705,6 +21788,11 @@
           ".marlock01",
           ".ReadInstructions"
         ],
+        "links": [
+          "https://qd7pcafncosqfqu3ha6fcx4h6sr7tzwagzpcdcnytiw3b6varaeqv5yd.onion",
+          "http://qd7pcafncosqfqu3ha6fcx4h6sr7tzwagzpcdcnytiw3b6varaeqv5yd.onion/",
+          "http://medusaxko7jxtrojdkxo66j7ck4q5tgktf7uqsqyfry4ebnxlcbkccyd.onion"
+        ],
         "ransomnotes-filenames": [
           "how_to_ recover_data.html",
           "how_to_recover_data.html.marlock01",
@@ -21862,7 +21950,21 @@
       "value": "NazCrypt"
     },
     {
-      "description": "ransomware",
+      "description": "According to Vitali Kremez and Michael Gillespie, this ransomware shares much code with Nemty 2.5. A difference is removal of the RaaS component, which was switched to email communications for payments. Uses AES-128, which is then protected RSA2048.",
+      "meta": {
+        "links": [
+          "http://hxt254aygrsziejn.onion"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "5fb75933-1ed5-4512-a062-d39865eedab0",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "related-to"
+        }
+      ],
       "uuid": "d12f369c-f776-468a-8abf-8000b1b30642",
       "value": "Nefilim"
     },
@@ -22157,7 +22259,12 @@
       "value": "Project57"
     },
     {
-      "description": "ransomware",
+      "description": "PwndLocker is a ransomware that was observed in late 2019 and is reported to have been used to target businesses and local governments/cities. According to one source, ransom amounts demanded as part of PwndLocker activity range from $175k USD to $650k USD depending on the size of the network. PwndLocker attempts to disable a variety of Windows services so that their data can be encrypted. Various processes will also be targeted, such as web browsers and software related to security, backups, and databases. Shadow copies are cleared by the ransomware, and encryption of files occurs once the system has been prepared in this way. Executable files and those that are likely to be important for the system to continue to function appear to be skipped by the ransomware, and a large number of folders mostly related to Microsoft Windows system files are also ignored. As of March 2020, encrypted files have been observed with the added extensions of .key and .pwnd. Ransom notes are dropped in folders where encrypted files are found and also on the user's desktop.",
+      "meta": {
+        "links": [
+          "http://msaoyrayohnp32tcgwcanhjouetb5k54aekgnwg7dcvtgtecpumrxpqd.onion"
+        ]
+      },
       "related": [
         {
           "dest-uuid": "421a3805-7741-4315-82c2-6c9aa30d0953",
@@ -22712,6 +22819,12 @@
     },
     {
       "description": "ransomware",
+      "meta": {
+        "links": [
+          "http://hl66646wtlp2naoqnhattngigjp5palgqmbwixepcjyq5i534acgqyad.onion",
+          "https://snatch.press/"
+        ]
+      },
       "uuid": "1a58eeac-26dc-40e6-8182-22cd461ba736",
       "value": "Snatch"
     },
@@ -23457,11 +23570,6 @@
     },
     {
       "description": "ransomware",
-      "uuid": "2c6fdb78-08cc-4199-992d-0b8c8a6b1c46",
-      "value": "Avaddon"
-    },
-    {
-      "description": "ransomware",
       "uuid": "d52ba288-4bcc-4f52-be6c-0d9cfadbf194",
       "value": "DualShot"
     },
@@ -23567,6 +23675,11 @@
     },
     {
       "description": "ransomware",
+      "meta": {
+        "links": [
+          "http://7iulpt5i6whht6zo2r52f7vptxtjxs3vfcdxxazllikrtqpupn4epnqd.onion"
+        ]
+      },
       "uuid": "b8b0933a-896a-45d1-8284-ebc55dff1f98",
       "value": "Exorcist"
     },
@@ -23681,6 +23794,10 @@
         "country": "RU",
         "extensions": [
           ".conti"
+        ],
+        "links": [
+          "http://continewsnv5otx5kaoje7krkto2qbu3gtqef22mnr7eaxw3y6ncz3ad.onion/",
+          "http://continews.click"
         ],
         "ransomnotes": [
           "All of your files are currently encrypted by CONTI ransomware."
@@ -23875,7 +23992,10 @@
     {
       "description": "ransomware",
       "meta": {
-        "date": "November 2020"
+        "date": "November 2020",
+        "links": [
+          "http://pay2key2zkg7arp3kv3cuugdaqwuesifnbofun4j6yjdw5ry7zw2asid.onion/"
+        ]
       },
       "uuid": "678bc24d-a5c3-4ddd-9292-40958afa3492",
       "value": "Pay2Key"
@@ -23948,6 +24068,9 @@
       "description": "ransomware",
       "meta": {
         "date": "November 2020",
+        "links": [
+          "http://3r6n77mpe737w4sbxxxrpc5phbluv6xhtdl5ujpnlvmck5tc7blq2rqd.onion"
+        ],
         "synonyms": [
           "FiveHands"
         ]
@@ -24411,6 +24534,10 @@
           ".ragnarok",
           ".ragnarok_cry"
         ],
+        "links": [
+          "http://wobpitin77vdsdiswr43duntv6eqw4rvphedutpaxycjdie6gg3binad.onion",
+          "http://sushlnty2j7qdzy64qnvyb6ajkwg7resd3p6agc2widnawodtcedgjid.onion/"
+        ],
         "refs": [
           "https://malpedia.caad.fkie.fraunhofer.de/details/win.ragnaro",
           "https://borncity.com/win/2021/03/27/tu-darmstadt-opfer-der-ragnarok-ransomware/"
@@ -24437,6 +24564,12 @@
       "meta": {
         "date": "June 2021",
         "encryption": "AES",
+        "links": [
+          "http://alphvmmm27o3abo3r2mlmjrpdmzle3rykajqc5xsj7j7ejksbpsa36ad.onion",
+          "http://2cuqgeerjdba2rhdiviezodpu3lc4qz2sjf4qin6f7std2evleqlzjid.onion",
+          "http://alphvmmm27o3abo3r2mlmjrpdmzle3rykajqc5xsj7j7ejksbpsa36ad.onion/api/blog/all/0/6",
+          "http://vqifktlreqpudvulhbzmc5gocbeawl67uvs2pttswemdorbnhaddohyd.onion/"
+        ],
         "ransomnotes-refs": [
           "https://unit42.paloaltonetworks.com/wp-content/uploads/2022/01/word-image-78.png"
         ],
@@ -24633,9 +24766,15 @@
     {
       "description": "Ransomware",
       "meta": {
+        "links": [
+          "http://mountnewsokhwilx.onion"
+        ],
         "refs": [
           "https://www.cyclonis.com/mount-locker-ransomware-more-dangerous",
           "https://www.bleepingcomputer.com/news/security/mount-locker-ransomware-joins-the-multi-million-dollar-ransom-game"
+        ],
+        "synonyms": [
+          "Mount-Locker"
         ]
       },
       "uuid": "1da28691-684a-4cd2-b2f8-e80a123e150c",
@@ -24655,6 +24794,9 @@
     {
       "description": "Ransomware",
       "meta": {
+        "links": [
+          "http://vbfqeh5nugm6r2u2qvghsdxm3fotf5wbxb5ltv6vw77vus5frdpuaiid.onion/"
+        ],
         "refs": [
           "https://twitter.com/malwrhunterteam/status/1501857263493001217",
           "https://dissectingmalwa.re/blog/pandora"
@@ -24666,6 +24808,9 @@
     {
       "description": "Ransomware",
       "meta": {
+        "links": [
+          "http://gamol6n6p2p4c3ad7gxmx3ur7wwdwlywebo2azv3vv5qlmjmole2zbyd.onion"
+        ],
         "refs": [
           "https://www.sentinelone.com/labs/new-rook-ransomware-feeds-off-the-code-of-babuk",
           "https://twitter.com/techyteachme/status/1464317136944435209"
@@ -24708,6 +24853,9 @@
     {
       "description": "Lorenz is a ransomware group that has been active since at least February 2021 and like many ransomware groups, performs double-extortion by exfiltrating data before encrypting systems.",
       "meta": {
+        "links": [
+          "http://lorenzmlwpzgxq736jzseuterytjueszsvznuibanxomlpkyxk6ksoyd.onion/"
+        ],
         "ransomnotes-refs": [
           "https://marvel-b1-cdn.bc0a.com/f00000000241276/arcticwolf.com/wp-content/uploads/2022/09/Screen-Shot-2022-09-12-at-11.18.04-AM-1024x246.png"
         ],
@@ -24721,6 +24869,11 @@
     {
       "description": "First observed in June 2021, Hive ransomware was originally written in GoLang but recently, new Hive variants have been seen written in Rust. Targets Healthcare sector.",
       "meta": {
+        "links": [
+          "http://hiveleakdbtnp76ulyhi52eag6c6tyc3xw7ez7iqy6wc34gd2nekazyd.onion/",
+          "http://hivecust6vhekztbqgdnkks64ucehqacge3dij3gyrrpdp57zoq3ooqd.onion",
+          "http://hiveapi4nyabjdfz2hxdsr7otrcv6zq6m4rk5i2w7j64lrtny4b7vjad.onion/v1/companies/disclosed"
+        ],
         "ransomnotes": [
           "Your network has been breached and all data were encrypted.\nPersonal data, financial reports and important documents are ready to disclose.\n\n To decrypt all the data and to prevent exfiltrated files to be disclosed at \nhttp://hive[REDACTED].onion/\nyou will need to purchase our decryption software.\n \nPlease contact our sales department at:v \n   http://hive[REDACTED].onion/\n  \n      Login:    [REDACTED]\n      Password: [REDACTED]\n \nTo get an access to .onion websites download and install Tor Browser at:\n   https://www.torproject.org/ (Tor Browser is not related to us)\n \n \nFollow the guidelines below to avoid losing your data:\n \n- Do not modify, rename or delete *.key.abc12 files. Your data will be \n   undecryptable.\n- Do not modify or rename encrypted files. You will lose them.\n- Do not report to the Police, FBI, etc. They don't care about your business.\n   They simply won't allow you to pay. As a result you will lose everything.\n- Do not hire a recovery company. They can't decrypt without the key. \n   They also don't care about your business. They believe that they are \n   good negotiators, but it is not. They usually fail. So speak for yourself.\n- Do not reject to purchase. Exfiltrated files will be publicly disclosed.",
           "Your network has been breached and all data were encrypted.\nPersonal data, financial reports and important documents are ready to disclose.\n\n To decrypt all the data and to prevent exfiltrated files to be disclosed at \nhttp://hive[REDACTED].onion/\nyou will need to purchase our decryption software.\n \nPlease contact our sales department at:\n \n   http://hive[REDACTED].onion/\n \n      Login:    test_hive_username\n      Password: test_hive_password\n \nTo get an access to .onion websites download and install Tor Browser at:\n   https://www.torproject.org/ (Tor Browser is not related to us)\n \n \nFollow the guidelines below to avoid losing your data:\n \n- Do not delete or reinstall VMs. There will be nothing to decrypt.\n- Do not modify, rename or delete *.key files. Your data will be \n   undecryptable.\n- Do not modify or rename encrypted files. You will lose them.\n- Do not report to the Police, FBI, etc. They don't care about your business.\n   They simply won't allow you to pay. As a result you will lose everything.\n- Do not hire a recovery company. They can't decrypt without the key. \n   They also don't care about your business. They believe that they are \n   good negotiators, but it is not. They usually fail. So speak for yourself.\n- Do not reject to purchase. Exfiltrated files will be publicly disclosed"
@@ -24742,6 +24895,10 @@
     {
       "description": "",
       "meta": {
+        "links": [
+          "http://quantum445bh3gzuyilxdzs5xdepf3b7lkcupswvkryf3n7hgzpxebid.onion/",
+          "http://quantum445bh3gzuyilxdzs5xdepf3b7lkcupswvkryf3n7hgzpxebid.onion"
+        ],
         "ransomnotes-refs": [
           "https://www.guidepointsecurity.com/wp-content/uploads/2021/04/Anonymized-Ransom-Note-1-1024x655.png"
         ],
@@ -24789,6 +24946,10 @@
       "meta": {
         "extensions": [
           ".basta"
+        ],
+        "links": [
+          "https://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/",
+          "https://bastad5huzwkepdixedg2gekg7jk22ato24zyllp6lnjx7wdtyctgvyd.onion"
         ],
         "ransomnotes": [
           "Your data are stolen and encrypted\nThe data will be published on TOR website if you do not pay the ransom\nYou can contact us and decrypt one file for free on this TOR site (you should download and install TOR browser first https://torproject.org) https://aazsbsgya565y1u2c6Lay6yfiebkcbtvvcytyolt33s77xypi7nypxyd.onion/ \n\nYour company id for log in: [REDACTED]"
@@ -24845,6 +25006,13 @@
     {
       "description": "BlackByte is recently discovered Ransomware with a .NET DLL core payload wrapped in JavaScript. It employs heavy obfuscation both in its JavaScript wrapper and .NET DLL core.\n\nOnce the JavaScript wrapper is executed, the malware will de-obfuscate the core payload and execute it in memory. The core .DLL is loaded and BlackByte will check the installed operating system language and terminate if an eastern European language is found.\n\nIt will proceed to check for the presence of several anti-virus and sandbox-related .DLLs, attempt to bypass AMSI, delete system shadow-copies in order to hinder system recovery, and modify several other system services (including Windows Firewall) in order to “prep” the system for encryption. Once the system is “ready” for encryption, it will download a symmetric key-file which will be used to encrypt files on the system. If this file is not found, the malware will terminate.\n\nUnlike most Ransomware today, BlackByte uses a single symmetric encryption key, and does not generate a unique encryption key for each victim system, meaning the same key can be used to decrypt all files encrypted by the malware.\n\nThis makes for substantially easier key-management for the actors behind BlackByte at the cost of a weaker encryption scheme and easier victim system recovery (as there is only a single online point with a single key to maintain).\n\nAs with most Ransomware today, BlackByte has worming capabilities and can infect additional endpoints on the same network.",
       "meta": {
+        "links": [
+          "http://6iaj3efye3q62xjgfxyegrufhewxew7yt4scxjd45tlfafyja6q4ctqd.onion",
+          "http://f5uzduboq4fa2xkjloprmctk7ve3dm46ff7aniis66cbekakvksxgeqd.onion",
+          "http://dlyo7r3n4qy5fzv4645nddjwarj7wjdd6wzckomcyc7akskkxp4glcad.onion",
+          "http://fl3xpz5bmgzxy4fmebhgsbycgnz24uosp3u4g33oiln627qq3gyw37ad.onion",
+          "http://jbeg2dct2zhku6c2vwnpxtm2psnjo2xnqvvpoiiwr5hxnc6wrp3uhnad.onion/"
+        ],
         "ransomnotes": [
           "BLACKBYTE \n\nAll your files have been encrypted, your confidential data has been stolen, in order to decrypt files and avoid leakage, you must follow our steps.\n\n1) Download and install TOR browser from this site: https://torproject.org/ \n\n2) Paste the URL in TOR browser and you will be redirected to our chat with all information that you need. \n\n3) If you won't contact with us within 4 days, your access to our chat will be removed and you wont be able to restore your system. \n\nYour URL: [LINK]\n\nYour Key: [KEY]",
           "BLACKBYTE\n\nAll your files have been encrypted, your confidential data has been stolen, \nin order to decrypt files and avoid leakage, you must follow our steps.\n\n\n\n1) Download and install TOR Browser from this site: https://torproject.org/\n\n2) Paste the URL in TOR Browser and you will be redirected to our chat with all information that you need.\n\n3) If you do not contact us within 3 days, your chat access key won't be valid.\nAlso, your company will be posted on our blog, darknet and hacker forums,\nwhich will attract unnecessary attention from Journalists and not only them.\nYou are given 3 days to think over the situation, and take reasonable actions on your part.\n\n\nWarning! Connurtcation with us occurs only through this link, or through our mail on our blog.\nWe also strongly DO NOT recommend using third-party tools to decrypt files,\nas this will simply kill them completely without the possibility of recovery.\nI repeat, in this case, no one can help you!\n\n\n\nYour URL: [LINK]\n\nYour Key to access the chat: [PASSW]\n\nFind our blog here (TOR Browser): http://dlyo7r3n4qy5fzv4645nddjwarj7wjdd6wzckomcyc7akskkxp4glcad.onion/"
@@ -24885,6 +25053,11 @@
     },
     {
       "description": "Ransomware",
+      "meta": {
+        "links": [
+          "http://blog2hkbm6gogpv2b3uytzi3bj5d5zmc4asbybumjkhuqhas355janyd.onion/"
+        ]
+      },
       "uuid": "549c9766-b45d-4d14-86e8-e6a74d69d067",
       "value": "RedAlert"
     },
@@ -24904,12 +25077,66 @@
       "value": "Luna Ransomware"
     },
     {
-      "description": "Ransomware",
+      "description": "In March 2022, the FBI and the U.S. Treasury Financial Crimes Enforcement Network released a joint advisory addressing AvosLocker and their activity targeting organizations across several critical infrastructure sectors. The RaaS gang deploys ransomware onto their victim’s networks and systems, then threatens to leak their files on the dark web if they don’t pay up. AvosLocker is both the name of the RaaS gang, as well as the name of the ransomware itself.\n\nIn May 2022, AvosLocker took responsibility for attacking and stealing data from the Texas-based healthcare organization, CHRISTUS Health. CHRISTUS Health runs hundreds of healthcare facilities across Mexico, the U.S., and South America. The group stole information from a cancer patient registry which included names, social security numbers, diagnoses, dates of birth, and other medical information. The nonprofit Catholic health system has more than 600 healthcare facilities in Texas, Louisiana, New Mexico, and Arkansas. There are also facilities in Columbia, Mexico, and Chile.\n\nFortunately, the ransomware attack was quickly identified and was limited. While other healthcare organizations have not been as fortunate with ransomware attacks, the AvosLocker attack didn’t impact CHRISTUS Health’s patient care or clinical operations. CHRISTUS Health didn’t reveal whether or not the security incident included ransomware, data exfiltration or extortion, but due to AvosLocker’s reputation, it is more than likely that the incident included at least one of the three.",
+      "meta": {
+        "links": [
+          "http://avosqxh72b5ia23dl5fgwcpndkctuzqvh2iefk5imp3pi5gfhel5klad.onion/",
+          "http://avosjon4pfh3y7ew3jdwz6ofw7lljcxlbk7hcxxmnxlh5kvf2akcqjad.onion"
+        ],
+        "ransomnotes": [
+          "AvosLocker\n\nAttention!\nYour systems have been encrypted, and your confidential documents were downloaded.\nIn order to restore your data, you must pay for the decryption key & application.\nYou may do so by visiting us at http://avosjon4pfh3y7ew3jdwz6ofw7lljcxlbk7hcxxmnxlh5kvf2akcqjad.onion.\nThis is an onion address that you may access using Tor Browser which you may download at https://www.torproject.org/download/\nDetails such as pricing, how long before the price increases and such will be available to you once you enter your ID presented to you below in this note in our website.\nContact us soon, because those who don't have their data leaked in our press release blog and the price they'll have to pay will go up significantly.\nThe corporations whom don't pay or fail to respond in a swift manner have their data leaked in our blog, accessible at http://avosqxh72b5ia23dl5fgwcpndkctuzqvh2iefk5imp3pi5gfhel5klad.onion"
+        ],
+        "ransomnotes-filenames": [
+          "GET_YOUR_FILES_BACK.TXT"
+        ],
+        "ransomnotes-refs": [
+          "https://blog.talosintelligence.com/content/images/AVvXsEhKEpexiVYKoELvESd2mP0ZXLbQYgWcVJaE5VB9--yD3vS6FTVNfNbPkAHtJp3KjN1ANKVLa4zWvuEFN68QaepAj_xF3j9TrzqUMoOwvQXx_zIOH9Ar31JgWYX4mlpUIPLaLi76aWawvifF56qKZ1mgXncCRwAmu_fjqmD_PTWu_84E_uTqnW2qZIPM/s16000/image4.png"
+        ],
+        "refs": [
+          "https://www.avertium.com/resources/threat-reports/in-depth-look-at-avoslocker-ransomware",
+          "https://unit42.paloaltonetworks.com/atoms/avoslocker-ransomware/",
+          "https://www.kroll.com/en/insights/publications/cyber/avoslocker-ransomware-update",
+          "https://www.picussecurity.com/resource/avos-locker-ransomware-group",
+          "https://brandefense.io/blog/ransomware/in-depth-analysis-of-avoslocker-ransomware/",
+          "https://blog.talosintelligence.com/avoslocker-new-arsenal/",
+          "https://www.techrepublic.com/article/avos-ransomware-updates-attack/",
+          "https://www.tripwire.com/state-of-security/avoslocker-ransomware-what-you-need-to-know",
+          "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-avoslocker",
+          "https://malpedia.caad.fkie.fraunhofer.de/details/elf.avoslocker",
+          "https://malpedia.caad.fkie.fraunhofer.de/details/win.avos_locker",
+          "https://blogs.vmware.com/security/2022/09/esxi-targeting-ransomware-the-threats-that-are-after-your-virtual-machines-part-1.html",
+          "https://blogs.blackberry.com/en/2022/04/threat-thursday-avoslocker-prompts-advisory-from-fbi-and-fincen",
+          "https://www.ic3.gov/Media/News/2022/220318.pdf",
+          "https://blog.qualys.com/vulnerabilities-threat-research/2022/03/06/avoslocker-ransomware-behavior-examined-on-windows-linux",
+          "https://blog.lexfo.fr/Avoslocker.html",
+          "https://blogs.vmware.com/security/2022/02/avoslocker-modern-linux-ransomware-threats.html",
+          "https://blog.cyble.com/2022/01/17/avoslocker-ransomware-linux-version-targets-vmware-esxi-servers/",
+          "https://www.malwarebytes.com/blog/threat-intelligence/2021/07/avoslocker-enters-the-ransomware-scene-asks-for-partners",
+          "https://unit42.paloaltonetworks.com/emerging-ransomware-groups/",
+          "https://news.sophos.com/en-us/2021/12/22/avos-locker-remotely-accesses-boxes-even-running-in-safe-mode/",
+          "https://www.symantec.broadcom.com/hubfs/SED/SED_Threat_Hunter_Reports_Alerts/SED_FY22Q2_SES_Ransomware-Threat-Landscape_WP.pdf",
+          "https://news.sophos.com/en-us/2022/03/17/the-ransomware-threat-intelligence-center/",
+          "https://www.advintel.io/post/enter-karakurt-data-extortion-arm-of-prolific-ransomware-group",
+          "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/ransomware-hive-conti-avoslocker",
+          "https://cdn.pathfactory.com/assets/10555/contents/400686/13f4424c-05b4-46db-bb9c-6bf9b5436ec4.pdf",
+          "https://www.trendmicro.com/en_us/research/22/e/avoslocker-ransomware-variant-abuses-driver-file-to-disable-anti-Virus-scans-log4shell.html",
+          "https://www.advintel.io/post/discontinued-the-end-of-conti-s-brand-marks-new-chapter-for-cybercrime-landscape"
+        ],
+        "synonyms": [
+          "Avos"
+        ]
+      },
       "uuid": "73d3d8f8-83cc-4fdc-a645-d03b9a7b5a9b",
       "value": "AvosLocker"
     },
     {
       "description": "Ransomware",
+      "meta": {
+        "links": [
+          "http://mbrlkbtq5jonaqkurjwmxftytyn2ethqvbxfu4rgjbkkknndqwae6byd.onion",
+          "http://k7kg3jqxang3wh7hnmaiokchk7qoebupfgoik6rha6mjpzwupwtj25yd.onion"
+        ]
+      },
       "uuid": "fec32bbf-c4f8-499d-8e2a-743bcdd071e7",
       "value": "PLAY Ransomware"
     },
@@ -24925,9 +25152,1029 @@
     },
     {
       "description": "Ransomware",
+      "meta": {
+        "links": [
+          "https://3f7nxkjway3d223j27lyad7v5cgmyaifesycvmwq7i7cbs23lb6llryd.onion/",
+          "https://www.karanews.live",
+          "https://karakurt.tech",
+          "https://karaleaks.com"
+        ]
+      },
       "uuid": "a7623a1b-4551-4e5a-a622-2b91dea16b42",
       "value": "Karakurt"
+    },
+    {
+      "description": "0mega, a new ransomware operation, has been observed targeting organizations around the world. The ransomware operators are launching double-extortion attacks and demanding millions of dollars as ransom.\n\n0mega ransomware operation launched in May and has already claimed multiple victims.\n0mega maintains a dedicated data leak site that the attackers use to post stolen data if the demanded ransom is not paid.\nThe leak site currently hosts 152 GB of data stolen from an electronics repair firm in an attack that happened in May.\nHowever, an additional victim has since been removed, implying that they might have paid the ransom to the 0mega group.\n\nHow does it work?\nHackers add the .0mega extension to the encrypted file’s names and create ransom notes (DECRYPT-FILES[.]txt).\nThe ransom note has a link to a Tor payment negotiation site with a support chat to reach out to the ransomware group.\nTo log in to this site, the victims are asked to upload their ransom notes with a unique Base64-encoded blob identity.",
+      "meta": {
+        "extensions": [
+          ".0mega "
+        ],
+        "links": [
+          "http://omegalock5zxwbhswbisc42o2q2i54vdulyvtqqbudqousisjgc7j7yd.onion/",
+          "https://0mega.cc/"
+        ],
+        "ransomnotes-filenames": [
+          "DECRYPT-FILES.txt"
+        ],
+        "refs": [
+          "https://www.bleepingcomputer.com/news/security/new-0mega-ransomware-targets-businesses-in-double-extortion-attacks/",
+          "https://cyware.com/news/new-0mega-ransomware-joins-the-double-extortion-threat-landscape-158fb321"
+        ]
+      },
+      "uuid": "91a085dc-9667-4dcd-9434-8cbb53e592fe",
+      "value": "0Mega"
+    },
+    {
+      "description": "Abraham's Ax announced their existence and mission through social media channels such as Twitter posts on November 8, 2022.\nAbraham's Ax use a WordPress blog as the basis for their leak sites. Abraham's Ax  site is available in Hebrew, Farsi, and English. The site also provides versions available via Tor websites, although it appeared to be under construction at the time of analysis. Used domain is registered with EgenSajt.se",
+      "meta": {
+        "links": [
+          " http://abrahamm32umasogaqojib3ey2w2nwoafffrguq43tsyke4s3fz3w4yd.onion/ "
+        ],
+        "refs": [
+          "https://www.secureworks.com/blog/abrahams-ax-likely-linked-to-moses-staff"
+        ],
+        "synonyms": [
+          "Abrahams_Ax"
+        ]
+      },
+      "uuid": "72892710-57ef-4bbb-8b80-752e036797f3",
+      "value": "Abraham's Ax"
+    },
+    {
+      "description": "Ransomware",
+      "meta": {
+        "links": [
+          "http://hitlerransomware[.]000webhostapp[.]com/",
+          "http://hitleransomware[.]cf/"
+        ],
+        "refs": [
+          "https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/hitler_ransomware.txt",
+          "https://twitter.com/fr0s7_/status/1460229982278541315"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8807752b-bd26-45a7-ba34-c8ddd8e5781d",
+          "tags": [
+            "estimative-language:likelihood-probability=\"unlikely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "71b02418-6b06-48e3-8636-32287f8e0b1d",
+      "value": "aGl0bGVyCg"
+    },
+    {
+      "description": "Once installed, Ako will attempt to delete Volume Shadow Copies and disable recovery services. It will then begin to encrypt all files that do not match a hard-coded list using an unknown algorithm. Whilst this is happening, Ako will scan the affected network for any connected devices or drives for it to propagate to.",
+      "meta": {
+        "extensions": [
+          ".A4Wz1b",
+          ".861C7c",
+          ".jJNm9j"
+        ],
+        "links": [
+          " http://kwvhrdibgmmpkhkidrby4mccwqpds5za6uo2thcw5gz75qncv7rbhyad.onion"
+        ],
+        "ransomnotes": [
+          "Your network have been locked.\n\nAll your files, documents, photos, databases and other important data are encrypted and have the extension: *******\n\nBackups and shadow copies also encrypted or removed. Any third-party software may damage encrypted data but not recover.\nFrom this moment, it will be impossible to use files until they are decrypted.\n\nThe only method of recovering files is to purchase an unique private key.\nOnly we can give you this key and only we can recovery your files.\n\nTo get info (decrypt your files) follow this steps:\n1) Download and install Tor Browser: hxxps://www.torproject.org/download/\n2) Open our website in TOR: hxxp://kwvhrdibgmmpkhkidrby4mccwqpds5za6uo2th cw5gz75qncv7rbhyad.onion/I8VC6PIEQL8JFKHM\n3) Paste your ID in form (you can find your ID below)\n\n!! ATTENTION !!\n!! Any third - party software may damage encrypted data but not recover.\n!! DO NOT MODIFY ENCRYPTED FILES\n!! DO NOT CHANGE YOUR ID\n!! DO NOT REMOVE YOUR ID.KEY FILE\n\n --- BEGIN PERSONAL ID ---\n\n --- END PERSONAL ID ---",
+          "Your network have been locked.\n\nAll your files, documents, photos, databases and other important data are encrypted and have the extension: ******\n\nBackups and shadow copies also encrypted or removed. Any third-party software may damage encrypted data but not recover.\nFrom this moment, it will be impossible to use files until they are decrypted.\n\nThe only method of recovering files is to purchase an unique private key.\nOnly we can give you this key and only we can recovery your files.\n\nTo get info (decrypt your files) contact us at (email)\ndavidgoldman@cock.li or portedhiggens@firemail.cc\n\nAnd send me your ID\n\n!!ATTENTION !!\n!!Any third - party software may damage encrypted data but not recover.\n!!DO NOT MODIFY ENCRYPTED FILES\n!!DO NOT CHANGE YOUR KEY\n\n--- YOUR ID ---\n-\n--- YOUR ID ---",
+          "Your network has been hacked and locked.\n\nAll files on each host in the network have been encrypted with a strong algorithm.\n\nBackups were either encrypted or deleted or backup disks were formatted.\nShadow copies also removed. Any 3rd party software may damage encrypted data but not recover.\n\nWe have decryption software for your situation.\nNo decryption software is available in the public.\n\nDO NOT RESET OR SHUTDOWN - files may be damaged.\nDO NOT RENAME OR MOVE the encrypted and readme files.\nDO NOT DELETE readme files.\n\nTo get info (decrypt your files) follow this instructions:\n1) [Recommended] via Tor Browser:\na) Download and install Tor Browser: hxxps://www.torproject.org/download/\nb) Open our website in TOR: hxxp://kwvhrdibgmmpkhkidrby4mccwqpds5za6uo2thcw5gz75qncv7rbhyad.onion/AXYIRRUPSQTS3AHT\n\n2) If you have any problems connecting or using TOR network:\na) Open our website: hxxps://buydecrypt.hk/AXYIRRUPSQTS3AHT\nb) Follow the instructions on the site.\n\nThe faster you get in contact - the lower price you can expect.\n\nExt: .A4Wz1b\nWhen you open our page, paste this key in form:\n\n-",
+          "Your network has been hacked and locked.\n\nAll files on each host in the network have been encrypted with a strong algorithm.\nDo not worry, we have decryption software for your situation.\n\nWe have also downloaded a lot of sensitive information from your network, so in case of not paying this data will be released.\nIf you dont believe we have any data you can contact us and ask a proof.\nDont forget about GDPR.\n\nWhen you pay us the data will be removed from our disks and decryptor will be given to you, so you can restore all your files.\n\nTo get info (decrypt your files) contact us at and send your key (see it below):\n\ndtddecrypt@protonmail.com or dtddesht@tutanota.com\n\nTo confirm our honest intentions, you can decrypt any file for free.\nThe faster you get in contact - the lower price you can expect.\n\nDecryption of your files with the help of third-party company may cause increased price. (they add their fee to our)\nDo not reset or shutdown - files may be damaged.\nDo not rename or move the encrypted and readme files.\nDo not delete readme files.\n\nMachine ID: .861C7c\nYour key:\n\n-",
+          "To get info (decrypt your files) contact us at (email) and send your key (see it below)\ndtddecrypt@protonmail.com or dtddesht@tutanota.com\n\n\nThe faster you get in contact - the lower price you can expect.\n\nMachine ID: .861C7c\nKey:\n\n-",
+          "--- We apologize! ---\nYour network have been locked.\n\n------------------------------\n| Whats happened?\n------------------------------\n\nAll your files, documents, photos, databases and other important data are encrypted and have the extension: .jJNm9j\n\nBackups and shadow copies also encrypted or removed. Any third-party software may damage encrypted data but not recover.\nFrom this moment, it will be impossible to use files until they are decrypted.\n\nThe only method of recovering files is to purchase an unique private key.\nOnly we can give you this key and only we can recovery your files.\n\n------------------------------\n| Guarantees?\n------------------------------\n\nAs you read above, files can be decrypted only using our private key and a special program.\nThe only guarantees we can give are decryption of your any file.\nSo you can decrypt any file from your system for free on our website.\nWe guarantee that you can recovery all your files. But you have not so enough time.\n\n------------------------------\n| How to recovery my files?\n------------------------------\n\nTo get info (decrypt your files) you have 1 way:\n\n1) [Recommended] via Tor Browser:\na) Download and install Tor Browser: hxxps://www.torproject.org/download/\nb) Open our website in TOR: hxxp://kwvhrdibgmmpkhkidrby4mccwqpds5za6uo2 thcw5gz75qncv7rbhyad.onion/I8VC6PIEQL8JFKHM\n\nWhen you open our website, put the following key in the input form:\n\n-\n\n!! ATTENTION !!\n!! Any third - party software may damage encrypted data but not recover. !!\n!! DO NOT MODIFY ENCRYPTED FILES !!\n!! DO NOT CHANGE YOUR ID !!\n!! DO NOT REMOVE YOUR ID.KEY FILE !!\n"
+        ],
+        "ransomnotes-filenames": [
+          "ako-readme.txt"
+        ],
+        "ransomnotes-refs": [
+          "https://www.pcrisk.com/images/stories/screenshots202001/ako-ransom-note.jpg"
+        ],
+        "refs": [
+          "https://digital.nhs.uk/cyber-alerts/2020/cc-3345",
+          "https://www.pcrisk.com/removal-guides/16737-ako-ransomware",
+          "https://www.pcrisk.com/images/stories/screenshots202001/ako-ransom-note-second_variant.jpg",
+          "https://www.pcrisk.com/images/stories/screenshots202004/ako-ransomware-update-2020-04-09-text-file.jpg",
+          "https://www.pcrisk.com/images/stories/screenshots202004/ako-update-2020-04-21-text-file.jpg",
+          "https://www.pcrisk.com/images/stories/screenshots202004/ako-update-2020-04-21-html-file.jpg",
+          "https://www.pcrisk.com/images/stories/screenshots202010/ako-ransomware-update-2020-10-15-text-file.gif"
+        ],
+        "synonyms": [
+          "MedusaReborn"
+        ]
+      },
+      "uuid": "7de070ce-4b63-4d3c-be73-1ede22565faf",
+      "value": "Ako"
+    },
+    {
+      "description": "Arvin Club is a popular Ransomware group with a widespread Telegram presence, which includes personal group chats, and official channels.\nThe group recently launched their official TOR/ Onion website to update their status and release details of their latest attacks and data breaches.\nTheir latest target is Kendriya Vidyala, a chain of Schools in India. The group has exposed the Personally Identifiable Information (PII) of some students.",
+      "meta": {
+        "links": [
+          "http://3kp6j22pz3zkv76yutctosa6djpj4yib2icvdqxucdaxxedumhqicpad.onion/"
+        ],
+        "synonyms": [
+          "Arvin Club"
+        ]
+      },
+      "uuid": "2dfc1668-e338-47f0-ba6c-b4bc3046881e",
+      "value": "Arvinclub"
+    },
+    {
+      "description": "AtomSilo is a new Ransomware recently seen in September 2021 during one of their attacks by exploiting a recently revealed vulnerability (CVE-2021-26084) in Atlassian’s Confluence Collaboration Software for initial access. The Ransomware used the double extortion method which is gaining popularity among ransomware threat actors where they first, exfiltrate the confidential information and as a second step encrypt the system files.",
+      "meta": {
+        "extensions": [
+          ".ATOMSILO"
+        ],
+        "links": [
+          "http://mhdehvkomeabau7gsetnsrhkfign4jgnx3wajth5yb5h6kvzbd72wlqd.onion",
+          "http://l5cjga2ksw6rxumu5l4xxn3cmahhi2irkbwg3amx6ajroyfmfgpfllid.onion/list.html"
+        ],
+        "ransomenotes-files": [
+          "README-FILE-#COMPUTER-NAME#-#CREATION-TIME#.hta"
+        ],
+        "ransomnotes": [
+          "Atom Slio\nInstructions\nWARNING! YOUR FILES ARE ENCRYPTED AND LEAKED!\n\n--------------------------------------\nWe are AtomSilo.Sorry to inform you that your files has been obtained and encrypted by us.\n\nBut don’t worry, your files are safe, provided that you are willing to pay the ransom.\n\nAny forced shutdown or attempts to restore your files with the thrid-party software will be damage your files permanently!\n\nThe only way to decrypt your files safely is to buy the special decryption software from us.\n\nThe price of decryption software is 1000000 dollars.\nIf you pay within 48 hours, you only need to pay 500000 dollars. No price reduction is accepted.\n\nWe only accept Bitcoin payment,you can buy it from bitpay,coinbase,binance or others.\n\nYou have five days to decide whether to pay or not. After a week, we will no longer provide decryption tools and publish your files\n\n--------------------------------------\n\nTime starts at 0:00 on September 11\n--------------------------------------\nSurvival time： 1 Day 14 Hour 26 Min 59 Sec\n\n--------------------------------------\n\nYou can contact us with the following email:\n\nEmail:arvato@atomsilo.com\nIf this email can't be contacted, you can find the latest email address on the following website:\n\nhxxp://mhdehvkomeabau7gsetnsrhkfign4jgnx3wajth5yb5h6kvzbd72wlqd.onion\n\n--------------------------------------\n\nIf you don’t know how to open this dark web site, please follow the steps below to installation and use TorBrowser:\n\nrun your Internet browser\nenter or copy the address hxxps://www.torproject.org/download/download-easy.html.en into the address bar of your browser and press ENTER\nwait for the site loading\non the site you will be offered to download TorBrowser; download and run it, follow the installation instructions, wait until the installation is completed\nrun TorBrowser\nconnect with the button \"Connect\" (if you use the English version)\na normal Internet browser window will be opened after the initialization\ntype or copy the address in this browser address bar and press ENTER\nthe site should be loaded; if for some reason the site is not loading wait for a moment and try again.\nIf you have any problems during installation or use of TorBrowser, please, visit hxxps://www.youtube.com and type request in the search bar \"Install TorBrowser Windows\" and you will find a lot of training videos about TorBrowser installation and use.\n\n--------------------------------------\n\nAdditional information:\n\nYou will find the instructions (\"README-FILE-#COMPUTER#-#TIME#.hta\") for restoring your files in any folder with your encrypted files.\n\nThe instructions \"README-FILE-#COMPUTER#-#TIME#.hta\" in the folders with your encrypted files are not viruses! The instructions \"README-FILE-#COMPUTER#-#TIME#.hta\" will help you to decrypt your files.\n\nRemember! The worst situation already happened and now the future of your files depends on your determination and speed of your actions."
+        ],
+        "ransomnotes-refs": [
+          "https://www.cyfirma.com/media/2021/10/Fig-2.png",
+          "https://www.cyfirma.com/media/2021/10/Fig-2-B.png",
+          "https://www.pcrisk.com/images/stories/screenshots202109/atomsilo-ransomware-ransom-note-in-gif-image.gif"
+        ],
+        "refs": [
+          "https://www.cyfirma.com/outofband/malware-research-on-atomsilo-ransomware/",
+          "https://www.zscaler.com/blogs/security-research/atomsilo-ransomware-enters-league-double-extortion",
+          "https://twitter.com/siri_urz/status/1437664046556274694",
+          "https://news.sophos.com/en-us/2021/10/04/atom-silo-ransomware-actors-use-confluence-exploit-dll-side-load-for-stealthy-attack/",
+          "https://chuongdong.com/reverse%20engineering/2021/10/13/AtomSiloRansomware/",
+          "https://decoded.avast.io/threatintel/decryptor-for-atomsilo-and-lockfile-ransomware/",
+          "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/",
+          "https://news.sophos.com/en-us/2022/03/17/the-ransomware-threat-intelligence-center/",
+          "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader",
+          "https://malpedia.caad.fkie.fraunhofer.de/details/win.atomsilo"
+        ]
+      },
+      "uuid": "a322f03f-4bc8-455f-b302-e8724c46f80c",
+      "value": "Atomsilo"
+    },
+    {
+      "description": "Avaddon is a ransomware malware targeting Windows systems often spread via malicious spam. The first known attack where Avaddon ransomware was distributed was in February 2020. Avaddon encrypts files using the extension .avdn and uses a TOR payment site for the ransom payment.",
+      "meta": {
+        "links": [
+          " http://avaddongun7rngel.onion "
+        ],
+        "refs": [
+          "https://heimdalsecurity.com/blog/avaddon-ransomware/",
+          "https://atos.net/en/lp/securitydive/avaddon-ransomware-analysis"
+        ]
+      },
+      "uuid": "fdfbe721-abd1-4760-8e52-f23306f6cb80",
+      "value": "Avaddon"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://avos2fuj6olp6x36.onion"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "73d3d8f8-83cc-4fdc-a645-d03b9a7b5a9b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"very-likely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "ba42ab03-9d29-40c3-b3d4-c2045e47dc07",
+      "value": "Avos"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://anewset3pcya3xvk73hj7yunuamutxxsm5sohkdi32blhmql55tvgqad.onion"
+        ]
+      },
+      "uuid": "9850bffb-8cc6-45c7-9e6a-4c77fd5093c3",
+      "value": "Aztroteam"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://nq4zyac4ukl4tykmidbzgdlvaboqeqsemkp4t35bzvjeve6zm2lqcjid.onion/#section-3"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "c52a65d5-9bea-4a09-a81b-7f789ab48ce0",
+          "tags": [
+            "estimative-language:likelihood-probability=\"very-likely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "05be1a86-92a9-48e1-8be1-9c1014dfd1cd",
+      "value": " Babuk-Locker"
+    },
+    {
+      "meta": {
+        "extension": [
+          ".babyduck"
+        ],
+        "links": [
+          "http://babydovegkmhbontykziyq7qivwzy33mu4ukqefe4mqpiiwd3wibnjqd.onion"
+        ],
+        "ransomnotes": [
+          "Ducky has got your flies encrypted!\n\nThis happened because you were not paying attention to your security.\n\nDucky will give you your files back if you pay him a bit of crypto.\n\nUse TOR browser (https://www.torproject.org/download/) apnd follow this link \n\n\nDon't worry, if you behave and pay - you'll get your files back;)\n\nYOUR KEY IS "
+        ],
+        "ransomnotes-files": [
+          "#README.babyduck"
+        ],
+        "ransomnotes-refs": [
+          "https://digitalrecovery.com/wp-content/uploads/2022/12/Ransomware-Baby-Duck.webp"
+        ],
+        "refs": [
+          "https://twitter.com/PolarToffee/status/1445873002801889280/photo/3"
+        ]
+      },
+      "uuid": "18e67723-a0de-4adf-aa28-f3e0b0d6d8ab",
+      "value": "Babyduck"
+    },
+    {
+      "description": "BianLian used subtle techniques to exploit, enumerate, and move laterally in victim networks to remain undetected and aggressively worked to counter Endpoint Detection & Response (EDR) protections during the encryption phase of their operations. The group has displayed signs of being new to the practical business aspects of ransomware and associated logistics. Generally they seemed to be experiencing the growing pains of a group of talented hackers new to this aspect of criminal extortion.\n\nInfrastructure associated with the BianLian group first appeared online in December 2021 and their toolset appears to have been under active development since then. Finally, we have observed the BianLian threat actor tripling their known command and control (C2) infrastructure in the month of August, suggesting a possible increase in the actor’s operational tempo.",
+      "meta": {
+        "links": [
+          "http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/"
+        ],
+        "ransomnotes": [
+          "Your network systems were attacked and encrypted. Contact us in order to restore your data. Don't make any changes in your file structure: touch no files, don't try to recover by yourself, that may lead to it's complete loss.\n\nTo contact us you have to download \"tox\" messenger: https://qtox.github.io/\n\nAdd user with the following ID to get your instructions: \nA4B3B0845DA242A64BF17E0DB4278EDF85855739667D3E2AE8B89D5439015F07E81D12D767FC\n\nAlternative way: swikipedia@onionmail.org\n\nYour ID: wU1VC460GC \n\nYou should know that we have been downloading data from your network for a significant time before the attack: financial, client, business, post, technical and personal files.\nIn 10 days — it will be posted at our site http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion with links send to your clients, partners, competitors and news agencies, that will lead to a negative impact on your company: potential financial, business and reputational loses."
+        ],
+        "ransomnotes-files": [
+          "Look at this instruction.txt"
+        ],
+        "ransomnotes-refs": [
+          "https://redacted.com/blog/bianlian-ransomware-gang-gives-it-a-go/v8_screenshot.png",
+          "https://redacted.com/blog/bianlian-ransomware-gang-gives-it-a-go/v28_screenshot.png",
+          "https://blogs.blackberry.com/content/dam/blogs-blackberry-com/images/blogs/2022/10/bianlian-fig05.png"
+        ],
+        "refs": [
+          "https://blog.cyble.com/2022/08/18/bianlian-new-ransomware-variant-on-the-rise/",
+          "https://blogs.blackberry.com/en/2022/10/bianlian-ransomware-encrypts-files-in-the-blink-of-an-eye",
+          "https://cryptax.medium.com/android-bianlian-payload-61febabed00a",
+          "https://cryptax.medium.com/bianlian-c-c-domain-name-4f226a29e221",
+          "https://cryptax.medium.com/creating-a-safe-dummy-c-c-to-test-android-bots-ffa6e7a3dce5",
+          "https://cryptax.medium.com/multidex-trick-to-unpack-android-bianlian-ed52eb791e56",
+          "https://cryptax.medium.com/quick-look-into-a-new-sample-of-android-bianlian-bc5619efa726",
+          "https://redacted.com/blog/bianlian-ransomware-gang-gives-it-a-go/",
+          "https://rhisac.org/threat-intelligence/bianlian-ransomware-expanding-c2-infrastructure-and-operational-tempo/",
+          "https://twitter.com/malwrhunterteam/status/1558548947584548865",
+          "https://www.fortinet.com/blog/threat-research/new-wave-bianlian-malware",
+          "https://www.threatfabric.com/blogs/bianlian_from_rags_to_riches_the_malware_dropper_that_had_a_dream.html",
+          "https://www.virusbulletin.com/uploads/pdf/conference/vb2022/slides/VB2022-Hunting-the-Android-BianLian-botnet.pdf",
+          "https://www.virusbulletin.com/uploads/pdf/conference/vb2022/papers/VB2022-Hunting-the-Android-BianLian-botnet.pdf",
+          "https://www.youtube.com/watch?v=DPFcvSy4OZk"
+        ],
+        "synonyms": [
+          "Hydra"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "2e4f26d6-f220-4877-be0e-45059b0f8eeb",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "2019d150-6073-4e3f-b6a5-64b919a87ce9",
+      "value": "Bianlian"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://544corkfh5hwhtn4.onion",
+          "http://blackshadow.cc"
+        ]
+      },
+      "uuid": "d9561bfc-08a0-4e9f-9189-d079bae4f9b7",
+      "value": "Blackshadow"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://bl%40ckt0r:bl%40ckt0r@bl4cktorpms2gybrcyt52aakcxt6yn37byb65uama5cimhifcscnqkid.onion/0x00/data-breach.html"
+        ]
+      },
+      "uuid": "25bd46bf-b4f5-4c34-b451-90a7809fa03a",
+      "value": "Blacktor"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://ccpyeuptrlatb2piua4ukhnhi7lrxgerrcrj4p2b5uhbzqm2xgdjaqid.onion"
+        ]
+      },
+      "uuid": "1f369229-a68d-4e08-aee4-f251111fa186",
+      "value": "Bluesky"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://bonacifryrxr4siz6ptvokuihdzmjzpveruklxumflz5thmkgauty2qd.onion"
+        ]
+      },
+      "uuid": "ef47092c-d86e-4db5-b0bf-e7676e85873f",
+      "value": "Bonacigroup"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://rwiajgajdr4kzlnrj5zwebbukpcbrjhupjmk6gufxv6tg7myx34iocad.onion/"
+        ]
+      },
+      "uuid": "eac9a5d5-509b-421a-a2d2-d91f7b27383a",
+      "value": "Cheers"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://z6mikrtphid5fmn52nbcbg25tj57sowlm3oc25g563yvsfmygkcxqbyd.onion",
+          "http://teo7aj5mfgzxyeme.onion"
+        ]
+      },
+      "uuid": "4ecf9aa9-69c8-4347-a9c6-cb4a5481ac8c",
+      "value": "Cooming"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://d57uremugxjrafyg.onion"
+        ],
+        "synonyms": [
+          "Cryakl"
+        ]
+      },
+      "uuid": "e7b3c590-78a7-4318-8607-69d53dc7dfbf",
+      "value": "Crylock"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://cuba4mp6ximo2zlo.onion",
+          "http://cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd.onion/"
+        ],
+        "synonyms": [
+          "COLDDRAW"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "2a95f6b9-3ce7-40b9-bda8-0832e0d9d07f",
+          "tags": [
+            "estimative-language:likelihood-probability=\"very-likely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "82ed1669-89ba-4432-bc97-148a25c15fdf",
+      "value": "Cuba"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://7ukmkdtyxdkdivtjad57klqnd3kdsmq6tp45rrsxqnu76zzv3jvitlqd.onion/"
+        ]
+      },
+      "uuid": "a1a445c4-708e-42f2-afdf-6d904328dafb",
+      "value": "Daixin"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://powerj7kmpzkdhjg4szvcxxgktgk36ezpjxvtosylrpey7svpmrjyuyd.onion/"
+        ]
+      },
+      "uuid": "64d155a9-8e33-4c3f-8f58-0a483475c65d",
+      "value": "Dark Power"
+    },
+    {
+      "meta": {
+        "links": [
+          "https://wemo2ysyeq6km2nqhcrz63dkdhez3j25yw2nvn7xba2z4h7v7gyrfgid.onion/"
+        ]
+      },
+      "uuid": "5276ed20-c9fa-4028-9272-3f5c0e4bc9b6",
+      "value": "Darkangel"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://iw6v2p3cruy7tqfup3yl4dgt4pfibfa3ai4zgnu5df2q3hus3lm7c7ad.onion",
+          "http://iw6v2p3cruy7tqfup3yl4dgt4pfibfa3ai4zgnu5df2q3hus3lm7c7ad.onion/support/"
+        ]
+      },
+      "uuid": "69e2ce57-67bb-4d53-a8c4-00b3501f45a3",
+      "value": "Darkbit01"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://woqjumaahi662ka26jzxyx7fznbp4kg3bsjar4b52tqkxgm2pylcjlad.onion/",
+          "http://woqjumaahi662ka26jzxyx7fznbp4kg3bsjar4b52tqkxgm2pylcjlad.onion/atom.xml"
+        ]
+      },
+      "uuid": "80a634ae-519f-46e3-8e24-8eb733dfd22f",
+      "value": "Dataleak"
+    },
+    {
+      "meta": {
+        "links": [
+          "https://7ypnbv3snejqmgce4kbewwvym4cm5j6lkzf2hra2hyhtsvwjaxwipkyd.onion"
+        ]
+      },
+      "uuid": "6c4b88a4-64d6-4fa2-a552-99974794de16",
+      "value": "Diavol"
+    },
+    {
+      "meta": {
+        "links": [
+          "https://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/",
+          "https://doq32rjiuomfghm5a4lyf3lwwakt2774tkv4ppsos6ueo5mhx7662gid.onion"
+        ]
+      },
+      "uuid": "50fdc311-e6c5-4843-9b91-24d66afbdb8d",
+      "value": "Donutleaks"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://h44jyyfomcbnnw5dha7zgwgkvpzbzbdyx2onu4fxaa5smxrgbjgq7had.onion/"
+        ]
+      },
+      "uuid": "14658178-6fea-43bb-ae11-4ae5c2f14560",
+      "value": "Endurance"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://leaksv7sroztl377bbohzl42i3ddlfsxopcb6355zc7olzigedm5agad.onion/posts"
+        ]
+      },
+      "uuid": "11a458b9-df9c-486f-8556-2ae662df2802",
+      "value": "Entropy"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://dg5fyig37abmivryrxlordrczn6d6r5wzcfe2msuo5mbbu2exnu46fid.onion"
+        ]
+      },
+      "uuid": "3a074223-6c97-48ca-b019-50a16a37e956",
+      "value": "Ep918"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/"
+        ]
+      },
+      "uuid": "3c2835b1-53de-4755-ac0f-48dff1e53745",
+      "value": "Everest"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://gcbejm2rcjftouqbxuhimj5oroouqcuxb2my4raxqa7efkz5bd5464id.onion/"
+        ]
+      },
+      "uuid": "34c540d5-70ad-44cc-b5a2-cd8ec7e2efd6",
+      "value": "Freecivilian"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://hkk62og3s2tce2gipcdxg3m27z4b62mrmml6ugctzdxs25o26q3a4mid.onion/"
+        ]
+      },
+      "uuid": "29408532-b5d3-47ab-9b31-1ea63a084e45",
+      "value": "Fsteam"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://griefcameifmv4hfr3auozmovz5yi6m3h3dwbuqw7baomfxoxz4qteid.onion/"
+        ]
+      },
+      "uuid": "506716cf-7e60-46e5-a853-c8a67fe696f9",
+      "value": "Grief"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://ws3dh6av66sjbxxkjpw5ao3wqzmtejnkzheswm4dz5rrwvular7xvkqd.onion/"
+        ]
+      },
+      "uuid": "267b7b61-ed82-4809-aafe-9d2487c56f19",
+      "value": "Groove"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://ft4zr2jzlqoyob7yg4fcpwyt37hox3ajajqnfkdvbfrkjioyunmqnpad.onion/login.php",
+          "http://midasbkic5eyfox4dhnijkzc7v7e4hpmsb2qgux7diqbpna4up4rtdad.onion/blog.php"
+        ]
+      },
+      "uuid": "949fe61d-6df6-4f36-996b-c58bbbc5140f",
+      "value": "Haron"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://r6d636w47ncnaukrpvlhmtdbvbeltc6enfcuuow3jclpmyga7cz374qd.onion"
+        ]
+      },
+      "uuid": "3c5832ae-3961-423e-8331-218a7aa6e5db",
+      "value": "Hotarus"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://kf6x3mjeqljqxjznaw65jixin7dpcunfxbbakwuitizytcpzn4iy5bad.onion/board/leak_list/",
+          "http://7kstc545azxeahkduxmefgwqkrrhq3mzohkzqvrv7aekob7z3iwkqvyd.onion/board/victim_list/"
+        ]
+      },
+      "uuid": "deea56de-1237-46bf-9ea7-4e1a3b3acd10",
+      "value": "Icefire"
+    },
+    {
+      "meta": {
+        "links": [
+          "https://justice-blade.io"
+        ]
+      },
+      "uuid": "71a6edfe-9764-4c9b-b528-e0ee7b73c110",
+      "value": "Justice_Blade"
+    },
+    {
+      "meta": {
+        "links": [
+          "https://kelvinsecteamcyber.wixsite.com/my-site/items"
+        ]
+      },
+      "uuid": "3c61d677-a2a6-40fb-aadd-72974f68e62c",
+      "value": "Kelvin Security"
+    },
+    {
+      "meta": {
+        "links": [
+          "https://t.me/minsaudebr"
+        ]
+      },
+      "uuid": "e2e035aa-eb95-48af-98a7-f18ddfcc347b",
+      "value": "Lapsus$"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://yeuajcizwytgmrntijhxphs6wn5txp2prs6rpndafbsapek3zd4ubcid.onion/"
+        ]
+      },
+      "uuid": "7dea3669-5ec4-4bdf-898f-c3a9f796365e",
+      "value": "Lilith"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://lockbitapt6vx57t3eeqjofwgcglmutr3a35nygvokja5uuccip4ykyd.onion/",
+          "http://zqaflhty5hyziovsxgqvj2mrz5e5rs6oqxzb54zolccfnvtn5w2johad.onion",
+          "http://lockbitapt2yfbt7lchxejug47kmqvqqxvvjpqkmevv4l3azl3gy6pyd.onion",
+          "http://lockbitapt34kvrip6xojylohhxrwsvpzdffgs5z4pbbsywnzsbdguqd.onion",
+          "http://lockbitapt5x4zkjbcqmz6frdhecqqgadevyiwqxukksspnlidyvd7qd.onion",
+          "http://lockbitaptc2iq4atewz2ise62q63wfktyrl4qtwuk5qax262kgtzjqd.onion",
+          "http://yq43odyrmzqvyezdindg2tokgogf3pn6bcdtvgczpz5a74tdxjbtk2yd.onion",
+          "http://oyarbnujct53bizjguvolxou3rmuda2vr72osyexngbdkhqebwrzsnad.onion",
+          "http://lockbitaptstzf3er2lz6ku3xuifafq2yh5lmiqj5ncur6rtlmkteiqd.onion",
+          "http://lockbitapt.uz",
+          "http://yq43odyrmzqvyezdindg2tokgogf3pn6bcdtvgczpz5a74tdxjbtk2yd.onion",
+          "http://lockbitaptq7ephv2oigdncfhtwhpqgwmqojnxqdyhprxxfpcllqdxad.onion",
+          "http://lockbitapt2d73krlbewgv27tquljgxr33xbwwsp6rkyieto7u4ncead.onion",
+          "http://lockbitapt6vx57t3eeqjofwgcglmutr3a35nygvokja5uuccip4ykyd.onion",
+          "http://lockbitapt72iw55njgnqpymggskg5yp75ry7rirtdg4m7i42artsbqd.onion",
+          "http://lockbitaptawjl6udhpd323uehekiyatj6ftcxmkwe5sezs4fqgpjpid.onion",
+          "http://lockbitaptbdiajqtplcrigzgdjprwugkkut63nbvy2d5r4w2agyekqd.onion",
+          "http://lockbit7z2jwcskxpbokpemdxmltipntwlkmidcll2qirbu7ykg46eyd.onion"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "8eda8bf1-db5a-412d-8511-45e2f7621d51",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "c09f73fd-c3c3-42b1-b355-b03ca4941110",
+      "value": "Lockbit3"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://mmeeiix2ejdwkmseycljetmpiwebdvgjts75c63camjofn2cjdoulzqd.onion",
+          "http://obzuqvr5424kkc4unbq2p2i67ny3zngce3tbdr37nicjqesgqcgomfqd.onion",
+          "http://nclen75pwlgebpxpsqhlcnxsmdvpyrr7ogz36ehhatfmkvakeyden6ad.onion"
+        ]
+      },
+      "uuid": "9886732d-76a2-4fbb-86b7-9e6a80669fb5",
+      "value": "Lolnek"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://rbvuetuneohce3ouxjlbxtimyyxokb4btncxjbo44fbgxqy7tskinwad.onion/",
+          "http://4qbxi3i2oqmyzxsjg4fwe4aly3xkped52gq5orp6efpkeskvchqe27id.onion/"
+        ]
+      },
+      "uuid": "46d56775-5f8c-411e-adbe-2acd07bf99ac",
+      "value": "Lv"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://wtyafjyhwqrgo4a45wdvvwhen3cx4euie73qvlhkhvlrexljoyuklaad.onion"
+        ]
+      },
+      "uuid": "95891bae-09a4-4d02-990e-2477cb09b9c2",
+      "value": "Mallox"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://xembshruusobgbvxg4tcjs3jpdnks6xrr6nbokfxadcnlc53yxir22ad.onion"
+        ]
+      },
+      "uuid": "7ecd6452-d521-4095-8fd7-eecdeb6c8d96",
+      "value": "Mbc"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://midasbkic5eyfox4dhnijkzc7v7e4hpmsb2qgux7diqbpna4up4rtdad.onion/blog.php"
+        ]
+      },
+      "uuid": "c0ce34c6-13b9-41ef-847c-840b090f2bfc",
+      "value": "Midas"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://moishddxqnpdxpababec6exozpl2yr7idfhdldiz5525ao25bmasxhid.onion"
+        ]
+      },
+      "uuid": "b2e44cc2-2df9-4210-a0ee-9ae913278c00",
+      "value": "Moisha"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://monteoamwxlutyovf7oxeviwjlbu3vbgdmkncecl2ydteqncrmcv67yd.onion/",
+          "http://monteoamwxlutyovf7oxeviwjlbu3vbgdmkncecl2ydteqncrmcv67yd.onion/catalog/"
+        ]
+      },
+      "uuid": "814f656d-7107-41d3-a934-1667e427ad8a",
+      "value": "Monte"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://4s4lnfeujzo67fy2jebz2dxskez2gsqj2jeb35m75ktufxensdicqxad.onion/",
+          "http://mblogci3rudehaagbryjznltdp33ojwzkq6hn2pckvjq33rycmzczpid.onion/"
+        ]
+      },
+      "uuid": "0ea4daa9-0b83-4acb-bc54-420635b7bfea",
+      "value": "Monti"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://58b87e60649ccc808ac8mstiejnj.5s4ixqul2enwxrqv.onion"
+        ]
+      },
+      "uuid": "8b726e6a-ed85-4a5b-a501-6bc06dab288d",
+      "value": "Mydecryptor"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://n3twormruynhn3oetmxvasum2miix2jgg56xskdoyihra4wthvlgyeyd.onion"
+        ]
+      },
+      "uuid": "815b13b2-2b94-4ea9-adc2-8193936a1c61",
+      "value": "N3Tworm"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://rnfdsgm6wb6j6su5txkekw4u4y47kp2eatvu7d6xhyn5cs4lt4pdrqqd.onion"
+        ]
+      },
+      "uuid": "a449e5a4-a835-419e-af3e-d223c74d0536",
+      "value": "Netwalker"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://nevcorps5cvivjf6i2gm4uia7cxng5ploqny2rgrinctazjlnqr2yiyd.onion/",
+          "http://nevbackvzwfu5yu3gszap77bg66koadds6eln37gxdhdk4jdsbkayrid.onion/",
+          "http://nevaffcwswjosddmw55qhn4u4secw42wlppzvf26k5onrlxjevm6avad.onion/"
+        ]
+      },
+      "uuid": "9c517547-8002-4a9a-a360-8d836d2fe3e3",
+      "value": "Nevada"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://gg5ryfgogainisskdvh4y373ap3b2mxafcibeh2lvq5x7fx76ygcosad.onion"
+        ]
+      },
+      "uuid": "886a2d59-2e8d-4357-b70f-a6dd3d034dfd",
+      "value": "Nightsky"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://lirncvjfmdhv6samxvvlohfqx7jklfxoxj7xn3fh7qeabs3taemdsdqd.onion",
+          "http://lirncvjfmdhv6samxvvlohfqx7jklfxoxj7xn3fh7qeabs3taemdsdqd.onion/",
+          "http://6yofnrq7evqrtz3tzi3dkbrdovtywd35lx3iqbc5dyh367nrdh4jgfyd.onion/"
+        ]
+      },
+      "uuid": "2b2f2e07-f764-4cc2-86ac-cc087a953cbb",
+      "value": "Nokoyawa"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://5mvifa3xq5m7sou3xzaajfz7h6eserp5fnkwotohns5pgbb5oxty3zad.onion"
+        ]
+      },
+      "uuid": "e9e810e3-a919-4417-85d0-fcab700e45de",
+      "value": "Onepercent"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://vbmisqjshn4yblehk2vbnil53tlqklxsdaztgphcilto3vdj4geao5qd.onion/"
+        ]
+      },
+      "uuid": "fd2161a9-cd88-4d12-94d9-52b93b28eb5b",
+      "value": "Payloadbin"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://promethw27cbrcot.onion/blog/"
+        ]
+      },
+      "uuid": "bcf0a9da-dca3-42c0-b875-59d434564fbb",
+      "value": "Prometheus"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://ozsxj4hwxub7gio347ac7tyqqozvfioty37skqilzo2oqfs4cw2mgtyd.onion/",
+          "http://24kckepr3tdbcomkimbov5nqv2alos6vmrmlxdr76lfmkgegukubctyd.onion",
+          "http://wlh3dpptx2gt7nsxcor37a3kiyaiy6qwhdv7o6nl6iuniu5ycze5ydid.onion/blog",
+          "http://kbsqoivihgdmwczmxkbovk7ss2dcynitwhhfu5yw725dboqo5kthfaad.onion/"
+        ]
+      },
+      "uuid": "d5b3ce3d-59e2-4e56-a29a-42fb8b733a51",
+      "value": "Qilin"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://gvka2m4qt5fod2fltkjmdk4gxh5oxemhpgmnmtjptms6fkgfzdd62tad.onion",
+          "http://gvka2m4qt5fod2fltkjmdk4gxh5oxemhpgmnmtjptms6fkgfzdd62tad.onion/"
+        ]
+      },
+      "uuid": "065110c5-574a-4466-a336-e6c5f3ef86c4",
+      "value": "Qlocker"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://wavbeudogz6byhnardd2lkp2jafims3j7tj6k6qnywchn2csngvtffqd.onion",
+          "http://rampjcdlqvgkoz5oywutpo6ggl7g6tvddysustfl6qzhr5osr24xxqqd.onion",
+          "http://ramp4u5iz4xx75vmt6nk5xfrs5mrmtokzszqxhhkjqlk7pbwykaz7zid.onion"
+        ]
+      },
+      "uuid": "824f225c-7cd9-47e3-9f5b-c3194e4a26ea",
+      "value": "Ramp"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://u67aylig7i6l657wxmp274eoilaowhp3boljowa6bli63rxyzfzsbtyd.onion/"
+        ]
+      },
+      "uuid": "62e56597-01c8-4721-abd2-c7efa37fb566",
+      "value": "Ransomcartel"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://xw7au5pnwtl6lozbsudkmyd32n6gnqdngitjdppybudan3x3pjgpmpid.onion",
+          "http://zohlm7ahjwegcedoz7lrdrti7bvpofymcayotp744qhx6gjmxbuo2yid.onion/"
+        ]
+      },
+      "uuid": "00a6fc79-8a29-417b-a298-adc8e17d8aba",
+      "value": "Ransomhouse"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://37rckgo66iydpvgpwve7b2el5q2zhjw4tv4lmyewufnpx4lhkekxkoqd.onion"
+        ]
+      },
+      "uuid": "840d5e7b-e96f-426d-8cf0-a5a10f5e4a46",
+      "value": "Ranzy"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://relic5zqwemjnu4veilml6prgyedj6phs7de3udhicuq53z37klxm6qd.onion"
+        ]
+      },
+      "uuid": "f4340cdb-ed0c-411e-ae11-b14ee151886a",
+      "value": "Relic"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://royal2xthig3ou5hd7zsliqagy6yygk2cdelaxtni2fyad6dpmpxedid.onion",
+          "http://royal4ezp7xrbakkus3oofjw6gszrohpodmdnfbe5e4w3og5sm7vb3qd.onion"
+        ]
+      },
+      "uuid": "9a970739-24e3-4eb5-9154-d0ac6b2c378d",
+      "value": "Royal"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://t2tqvp4pctcr7vxhgz5yd5x4ino5tw7jzs3whbntxirhp32djhi7q3id.onion"
+        ]
+      },
+      "uuid": "470306b5-5a3b-4b63-9c02-0dc917584e72",
+      "value": "Rransom"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://54bb47h5qu4k7l4d7v5ix3i6ak6elysn3net4by4ihmvrhu7cvbskoqd.onion/blog",
+          "http://54bb47h.blog"
+        ]
+      },
+      "uuid": "efdf315c-e85c-4d87-b816-ec29dbea67b5",
+      "value": "Sabbath"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://solidb2jco63vbhx4sfimnqmwhtdjk4jbbgq7a24cmzzkfse4rduxgid.onion/login"
+        ]
+      },
+      "uuid": "70719914-dc82-4ab0-b925-da837b337c89",
+      "value": "Solidbit"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://zj2ex44e2b2xi43m2txk4uwi3l55aglsarre7repw7rkfwpj54j46iqd.onion"
+        ]
+      },
+      "uuid": "ce4eb745-e341-4f5d-be93-2af23b9ad756",
+      "value": "Sparta"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://spookuhvfyxzph54ikjfwf2mwmxt572krpom7reyayrmxbkizbvkpaid.onion/blog/"
+        ]
+      },
+      "uuid": "0d4a8359-d607-4e5a-b85c-c8248cfa520a",
+      "value": "Spook"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://3slz4povugieoi3tw7sblxoowxhbzxeju427cffsst5fo2tizepwatid.onion"
+        ]
+      },
+      "uuid": "6e20bdd2-31ac-4429-8aa7-4ce8cb7dc7b5",
+      "value": "Stormous"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://tdoe2fiiamwkiadhx2a4dfq56ztlqhzl2vckgwmjtoanfaya4kqvvvyd.onion"
+        ]
+      },
+      "uuid": "0e2d3ead-3de9-4089-b7a3-10790b6f70f2",
+      "value": "Unknown"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://unsafeipw6wbkzzmj7yqp7bz6j7ivzynggmwxsm6u2wwfmfqrxqrrhyd.onion/"
+        ]
+      },
+      "uuid": "df2b1358-b3f1-4af4-8153-02f4fc018b03",
+      "value": "Unsafe"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://test.cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd.onion"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "731e4a5e-35f2-47b1-80ba-150b95fdc14d",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "7fd558de-1dfe-432a-834b-3e2691ee7283",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "f4b870cb-8c61-40ab-865b-b8304a120ba5",
+      "value": "V Is Vendetta"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://vfokxcdzjbpehgit223vzdzwte47l3zcqtafj34qrr26htjo4uf3obid.onion",
+          "http://746pbrxl7acvrlhzshosye3b3udk4plurpxt2pp27pojfhkkaooqiiqd.onion"
+        ]
+      },
+      "uuid": "465828ea-6e81-4851-b02c-458d696629c1",
+      "value": "Vfokx"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://4hzyuotli6maqa4u.onion",
+          "http://vsociethok6sbprvevl4dlwbqrzyhxcxaqpvcqt5belwvsuxaxsutyad.onion",
+          "http://ml3mjpuhnmse4kjij7ggupenw34755y4uj7t742qf7jg5impt5ulhkid.onion/",
+          "http://ssq4zimieeanazkzc5ld4v5hdibi2nzwzdibfh5n5w4pw5mcik76lzyd.onion/",
+          "http://wmp2rvrkecyx72i3x7ejhyd3yr6fn5uqo7wfus7cz7qnwr6uzhcbrwad.onion"
+        ]
+      },
+      "uuid": "41979767-bfb8-4633-af1f-3946a599f922",
+      "value": "Vicesociety"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://mrdxtxy6vqeqbmb4rvbvueh2kukb3e3mhu3wdothqn7242gztxyzycid.onion/"
+        ]
+      },
+      "uuid": "8b2e6391-05b4-439e-b318-1c3ace388c2d",
+      "value": "Vsop"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://xingnewj6m4qytljhfwemngm7r7rogrindbq7wrfeepejgxc3bwci7qd.onion/"
+        ]
+      },
+      "uuid": "e92d5c00-81ae-4909-9994-74bf48180f22",
+      "value": "Xinglocker"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://wj3b2wtj7u2bzup75tzhnso56bin6bnvsxcbwbfcuvzpc4vcixbywlid.onion"
+        ]
+      },
+      "uuid": "64b7dc11-a627-43b2-91cd-38608784c53f",
+      "value": "Xinof"
+    },
+    {
+      "meta": {
+        "links": [
+          "http://jukswsxbh3jsxuddvidrjdvwuohtsy4kxg2axbppiyclomt2qciyfoad.onion/"
+        ]
+      },
+      "uuid": "476de1fe-d9b7-441a-8cb9-e6648189be3b",
+      "value": "Yanluowang"
     }
   ],
-  "version": 112
+  "version": 118
 }

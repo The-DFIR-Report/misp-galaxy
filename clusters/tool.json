@@ -122,6 +122,15 @@
           "HackTool"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "c752f295-7f08-4cb0-92d5-a0c562abd08c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d0394d50-5316-4405-aa77-1070bdf68b6a",
       "value": "Lazagne"
     },
@@ -720,6 +729,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "588fb91d-59c6-4667-b299-94676d48b17b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "7f3a035d-d83a-45b8-8111-412aa8ade802",
@@ -767,6 +783,13 @@
           "dest-uuid": "58adaaa8-f1e8-4606-9a08-422e568461eb",
           "tags": [
             "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "e2325481-006f-4ad4-86d9-1a2ae6fea154",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
           ],
           "type": "similar"
         }
@@ -817,6 +840,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "23398248-a52a-4a7c-af10-262822d33a4e",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "cd6c5f27-cf7e-4529-ae9c-ab5b85102bde",
@@ -851,6 +881,15 @@
           "Backdoor"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "3bb8052e-8ed2-48e3-a2cf-7358bae8c6b5",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "0ee08ab5-140c-44c3-9b0a-4a352500b14e",
       "value": "Neteagle"
     },
@@ -1014,6 +1053,15 @@
           "WinSpy"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "cad83c5e-2081-4ab4-81c7-32cfc16eae66",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "38d6a0a1-0388-40d4-b8f4-1d58eeb9a07d",
       "value": "Cadelspy"
     },
@@ -1023,6 +1071,15 @@
           "http://researchcenter.paloaltonetworks.com/2016/03/digital-quartermaster-scenario-demonstrated-in-attacks-against-the-mongolian-government/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "e4e15ab4-9ba6-444a-b154-2854757e792e",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "e81b96a2-22e9-445e-88c7-65b67c2299ec",
       "value": "CMStar"
     },
@@ -1039,10 +1096,11 @@
       "value": "DHS2015"
     },
     {
-      "description": "Gh0st Rat is a well-known Chinese remote access trojan which was originally made by C.Rufus Security Team several years ago.",
+      "description": "Gh0st Rat is a well-known Chinese remote access trojan which was originally made by C.Rufus Security Team several years ago. GH0ST is a backdoor written in C++ that communicates via a custom binary protocol over TCP or UDP. It typically features a packet signature at the start of each message that varies between samples. Availability: Public",
       "meta": {
         "refs": [
-          "http://download01.norman.no/documents/ThemanyfacesofGh0stRat.pdf"
+          "http://download01.norman.no/documents/ThemanyfacesofGh0stRat.pdf",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
         ],
         "synonyms": [
           "Gh0stRat, GhostRat"
@@ -1051,6 +1109,13 @@
       "related": [
         {
           "dest-uuid": "c82c904f-b3b4-40a2-bf0d-008912953104",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
           "tags": [
             "estimative-language:likelihood-probability=\"likely\""
           ],
@@ -1108,6 +1173,13 @@
           "dest-uuid": "3a1fc564-3705-4cc0-8f80-13c58d470d34",
           "tags": [
             "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "0fb57d46-1c4f-49a3-80c2-05bcaa34ec1b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
           ],
           "type": "similar"
         }
@@ -1378,6 +1450,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "b79a6b61-f122-4823-a4ab-bbab89fcaf75",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "6d1e2736-d363-49aa-9054-9c9e4ac0c520",
@@ -1456,6 +1535,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "579cc23d-4ba4-419f-bf8a-f235ed33125e",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "3948ce95-468e-4ce1-82b1-57439c6d6afd",
@@ -1519,10 +1605,28 @@
       "value": "TinyTyphon"
     },
     {
+      "related": [
+        {
+          "dest-uuid": "f28fa5ca-9466-410c-aa32-4bd102f3f0e1",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "48ca79ff-ea36-4a47-8231-0f7f0db0e09e",
       "value": "Badnews"
     },
     {
+      "related": [
+        {
+          "dest-uuid": "929112e4-e252-4273-b3c2-fd414cfb2776",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "fcece2f7-e0ef-44e0-aa9f-578c2a56f532",
       "value": "LURK"
     },
@@ -1555,12 +1659,28 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "b933634f-81d0-41ef-bf2f-ea646fc9e59c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "e2cc27a2-4146-4f08-8e80-114a99204cea",
       "value": "TinyZBot"
     },
     {
+      "related": [
+        {
+          "dest-uuid": "ef4383f6-29fd-4b06-9a1f-b788567fd8fd",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "43a0d8a7-558d-4104-8a24-55e6e7a503db",
       "value": "GHOLE"
     },
@@ -1619,6 +1739,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "7344cee0-87c9-46a1-85aa-0d3c8c9c8cc6",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "809b54c3-dd6a-4ec9-8c3a-a27b9baa6732",
@@ -1630,6 +1757,13 @@
           "dest-uuid": "ff6840c9-4c87-4d07-bbb6-9f50aa33d498",
           "tags": [
             "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "c40dbede-490f-4df4-a242-a2461e3cfc4e",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
           ],
           "type": "similar"
         }
@@ -1809,6 +1943,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "94323b32-9566-450b-8480-5f9f53b57948",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "cda7d605-23d0-4f93-a585-1276f094c04a",
@@ -1833,6 +1974,15 @@
       "value": "Rekaf"
     },
     {
+      "related": [
+        {
+          "dest-uuid": "e343583b-8338-42ea-af60-311578146151",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "267bf78e-f430-47b6-8ba0-1ae31698c711",
       "value": "Scieron"
     },
@@ -1908,6 +2058,15 @@
           "https://www.fireeye.com/blog/threat-research/2014/09/the-path-to-mass-producing-cyber-attacks.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "e0627961-fc28-4b7d-bb44-f937defa052a",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "aa3aa21f-bc4e-4fb6-acd2-f4b6de482dfe",
       "value": "Mongall"
     },
@@ -1976,6 +2135,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "01325d85-297f-40d5-b829-df9bd996af5a",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "c3c20c4b-e12a-42e5-960a-eea4644014f4",
@@ -1990,6 +2156,15 @@
           "Jiripbot"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "e895a0d2-fe4b-4793-9440-9db2d56a97f2",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "05e2ccec-7050-47cf-b925-50907f57c639",
       "value": "Jripbot"
     },
@@ -2102,6 +2277,15 @@
           "HTran"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "3fb18a77-91ef-4c68-a9a9-fa6bdbea38e8",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "f3bfe513-2a65-49b5-9d64-a66541dce697",
       "value": "Htran"
     },
@@ -2119,6 +2303,13 @@
           "dest-uuid": "e066bf86-9cfb-407a-9d25-26fd5d91e360",
           "tags": [
             "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "79f93d04-f6c8-4705-9395-7f575a61e82f",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
           ],
           "type": "similar"
         }
@@ -2249,6 +2440,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "91af1080-6378-4a90-ba1e-78634cd31efe",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "91583583-95c0-444e-8175-483cbebc640b",
@@ -2283,6 +2481,13 @@
           "dest-uuid": "95047f03-4811-4300-922e-1ba937d53a61",
           "tags": [
             "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "35fd4bd7-d510-40fd-b89c-8a1b10dbc3f1",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
           ],
           "type": "similar"
         }
@@ -2369,6 +2574,15 @@
           "http://williamshowalter.com/a-universal-windows-bootkit/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "af8df5d7-cd8c-41ea-b9ec-b69ab7811e2d",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d2c1a439-585a-48bc-8176-c0c46dfac270",
       "value": "HDRoot"
     },
@@ -2563,6 +2777,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "00764634-4a21-4c5c-8b1f-fb294c9bdd3f",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "67ade442-63f2-4319-bdcd-d2564b963ed6",
@@ -2580,6 +2801,13 @@
           "dest-uuid": "705f0783-5f7d-4491-b6b7-9628e6e006d2",
           "tags": [
             "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "3e46af39-52e8-442f-aff1-38eeb90336fc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
           ],
           "type": "similar"
         }
@@ -3109,10 +3337,28 @@
           "PureMasuta"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "b9168ff8-01df-4cd0-9f70-fe9e7a11eccd",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "1d4dec2c-915a-4fef-ba7a-633421bd0848",
       "value": "Masuta"
     },
     {
+      "related": [
+        {
+          "dest-uuid": "81917a93-6a70-4334-afe2-56904c1fafe9",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "55f8fb60-6339-4bc2-baa0-41e698e11f95",
       "value": "BASHLITE"
     },
@@ -3379,6 +3625,15 @@
           "Floki"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "057ff707-a008-4ab8-8370-22b689ed3412",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "8034978b-3a32-4662-b1bf-b525e59e469f",
       "value": "Flokibot"
     },
@@ -3437,6 +3692,15 @@
           "Backdoor"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "90cb8ee6-52e6-4d8d-8f45-f04b9aec1f6c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d08201b8-9774-41a1-abdb-c7f3828139b0",
       "value": "adzok"
     },
@@ -3502,6 +3766,15 @@
           "Backdoor"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "f9d0e934-879c-4668-b959-6bf7bdc96f5d",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "cff2e174-52b8-4304-903a-012f97d70b7c",
       "value": "bozok"
     },
@@ -3528,6 +3801,15 @@
           "Backdoor"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "062d8577-d6e6-4c97-bcac-eb6eb1a50a8d",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "f6e6540e-c21f-4202-ac46-185e735215db",
       "value": "cybergate"
     },
@@ -3548,6 +3830,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "used-by"
+        },
+        {
+          "dest-uuid": "5086a6e0-53b2-4d96-9eb3-a0237da2e591",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "15949ecb-1f2b-4f59-9cf7-5751694e8fba",
@@ -3563,6 +3852,15 @@
           "Backdoor"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "bcff979f-2b4b-41cc-86c9-fe1ea3adce6e",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "c9e6e42a-65c0-418e-ab77-09bcdb1214a3",
       "value": "darkrat"
     },
@@ -3663,6 +3961,15 @@
           "Backdoor"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "e43b67bc-3c16-4a69-b63d-f6bf3d732e1b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "2c215062-5739-4859-bd82-9639ae1d1756",
       "value": "pandora"
     },
@@ -3752,6 +4059,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "ef385825-bfa1-4e8c-b368-522db78cf1bd",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "c3a784ee-cef7-4604-a5ba-ec7b193a5152",
@@ -3819,6 +4133,15 @@
           "Backdoor"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "71e77349-98f5-49c6-bff7-6ed3b3d79410",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "b7b4c682-090b-4da2-abc2-541fd3157579",
       "value": "tapaoux"
     },
@@ -3897,6 +4220,15 @@
           "Backdoor"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "ff24997d-1f17-4f00-b9b8-b3392146540f",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "8abd10df-2c31-4895-8ec1-270603078f47",
       "value": "jspy"
     },
@@ -3910,6 +4242,15 @@
           "Backdoor"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a8f167a8-30b9-4953-8eb6-247f0d046d32",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "c76e2ee8-52d1-4a55-81df-5542d232ca32",
       "value": "xrat"
     },
@@ -4068,6 +4409,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "e3065e43-503b-4496-921b-7601dd3d6abd",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "316c87d4-4404-42ab-9887-f9e321aed93c",
       "value": "AURIGA"
     },
@@ -4078,6 +4428,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "5c3c53ff-c81f-4daa-9b60-672650046ed7",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "fa9b2176-1248-4d59-8da2-c31c7501a81d",
       "value": "BANGAT"
     },
@@ -4095,6 +4454,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "f98b4092-5f32-407c-9015-2da787d70c64",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "f1e05a12-ca50-41ab-a963-d7df5bcb141d",
@@ -4107,6 +4473,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "80487bca-7629-4cb2-bf5b-993d5568b699",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "52d9a474-fc37-48b5-8e39-4394194b9573",
       "value": "BOUNCER"
     },
@@ -4136,6 +4511,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "2b71a966-da08-4467-a785-cb6abf2fa65e",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "fa38b79c-9774-45a0-831c-24c6c8d39a22",
       "value": "COMBOS"
     },
@@ -4149,6 +4533,15 @@
           "TROJAN.COOKIES"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "9afa9b7e-e2c1-4725-8d8d-cec7933cc63b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "63be3d30-0c8d-4c0a-8eee-6c96880734cb",
       "value": "COOKIEBAG"
     },
@@ -4159,6 +4552,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "92960f1f-5099-4e38-a177-14a5e3b8d601",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "2a56538f-7c21-44b3-b438-5baa025ed005",
       "value": "DAIRY"
     },
@@ -4169,6 +4571,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "6f155c95-3090-4730-8d3b-0b246162a83a",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "5abd7dee-cca1-4bee-9b82-da3f9be2970b",
       "value": "GETMAIL"
     },
@@ -4199,6 +4610,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "18208674-fe8c-447f-9e1d-9ff9a64b2370",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "a379f09b-5cec-4bdb-9735-125cef2de073",
@@ -4214,6 +4632,15 @@
           "TROJAN.FOXY"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "7d89e8dc-4999-47e9-b497-b476e368a8d2",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "4bc55eb3-7c92-4668-a75a-d5e291387613",
       "value": "GOGGLES"
     },
@@ -4244,6 +4671,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "9af26655-cfba-4e02-bd10-ad1a494e0b5f",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "7c05c816-481f-499e-9545-d48b635dc2eb",
       "value": "HELAUTO"
     },
@@ -4254,6 +4690,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "1fc49b8c-647a-4484-a2f6-e6f2311f8b58",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "616c7c32-110e-4bb3-8e99-4c2aeb8f8272",
       "value": "KURTON"
     },
@@ -4294,6 +4739,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "13b0d9ff-0be0-4539-8c86-dfca7a0e79f6",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "25db921d-d753-4fb1-b51b-961d7fdae6f4",
       "value": "MANITSME"
     },
@@ -4305,6 +4759,15 @@
           "http://contagiodump.blogspot.com/2010/06/these-days-i-see-spike-in-number-of.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "8a97307f-a029-4c43-88e1-debed2b80b14",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "bf08965f-03a5-4cf6-83fb-8d3c9e9398ee",
       "value": "MAPIGET"
     },
@@ -4315,6 +4778,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a4f8bacf-2076-4e00-863c-874cdd833a41",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "ea9c7068-1c28-4826-a7d1-7ac04760e5c9",
       "value": "MINIASP"
     },
@@ -4325,6 +4797,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "1d32e7c3-840e-4247-b28b-818cb1c4ae7c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "5abc6792-be17-48ee-a765-29cffa4242ee",
       "value": "NEWSREELS"
     },
@@ -4335,6 +4816,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "d66f466a-e70e-4b62-9a04-d62eb41da15c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "7429aaf8-85a8-4ae9-b583-c7eec0f5b0cb",
       "value": "SEASALT"
     },
@@ -4345,6 +4835,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "6df9bbd4-ab32-4d09-afdb-97eed274520a",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d0220108-48d7-4056-babc-189048f37a59",
       "value": "STARSYPOUND"
     },
@@ -4355,6 +4854,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "2112870f-06f1-44a9-9c43-6cc4fb90e295",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "96fb29fa-7c3a-4124-baf5-cc5f99b2a05f",
       "value": "SWORD"
     },
@@ -4368,6 +4876,15 @@
           "TROJAN LETSGO"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "48aa9c41-f420-418b-975c-1fb6e2a91145",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d5a4cbe7-81c9-4a52-80ee-07ca3f625844",
       "value": "TABMSGSQL"
     },
@@ -4408,6 +4925,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "e57c677f-0117-4e23-8c3f-a772ed809f4c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "2d8043b4-48ef-4992-a04a-c342cbbb4f87",
       "value": "WEBC2-ADSPACE"
     },
@@ -4418,6 +4944,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "64f5ae85-1324-43de-ba3a-063785567be0",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "e2a27431-28ea-42e3-a0cc-72f29828c292",
       "value": "WEBC2-AUSOV"
     },
@@ -4428,6 +4963,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "71292a08-9a7b-4df1-b1fd-7d80a8fcc18f",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "a601e1b0-c0bc-4665-9639-4dc5e588520c",
       "value": "WEBC2-BOLID"
     },
@@ -4448,6 +4992,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "5371bc44-dc07-4992-a3d7-c21705c50ac4",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "950a8038-eeec-44a0-b3db-a557e5796416",
       "value": "WEBC2-CSON"
     },
@@ -4458,6 +5011,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "acdda3e5-e776-419b-b060-14f3406de061",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "54be66ea-fd26-4f25-b4af-d10d16fa919f",
       "value": "WEBC2-DIV"
     },
@@ -4468,6 +5030,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "cfed10ed-6601-469e-a1df-2d561b031244",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "bfe69071-17bf-466f-97fd-669b72053137",
       "value": "WEBC2-GREENCAT"
     },
@@ -4478,6 +5049,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "f9f37707-36cf-4ad0-88e0-86f47cbe0ed6",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "4ef97a7e-5686-44cb-ad91-7a393f32f39b",
       "value": "WEBC2-HEAD"
     },
@@ -4488,6 +5068,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "15094548-7555-43ee-8c0d-4557d6d8a087",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "e2afc267-9674-4ca3-807f-47678fb40da4",
       "value": "WEBC2-KT3"
     },
@@ -4498,6 +5087,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "71d8ef43-3767-494b-afaa-f58aad70df65",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "84f3bacf-abd5-445e-a98a-5b02f1eaac92",
       "value": "WEBC2-QBP"
     },
@@ -4508,6 +5106,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "5350bf3a-26b0-49fb-a0b8-dd68933ea78c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "9e36feee-e7d2-400a-960e-5f2bd6ac0c15",
       "value": "WEBC2-RAVE"
     },
@@ -4518,6 +5125,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "1035ea6f-6743-4e69-861c-454c19ec96ae",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "269fee27-f275-44e9-a0db-bebf14d2f83c",
       "value": "WEBC2-TABLE"
     },
@@ -4538,6 +5154,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "b459033c-2d19-49aa-a21f-44a01d1a4156",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d155c213-02bd-4992-a410-a541a1c1eb40",
       "value": "WEBC2-UGX"
     },
@@ -4558,6 +5183,15 @@
           "http://contagiodump.blogspot.lu/2013/03/mandiant-apt1-samples-categorized-by.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "52c1518d-175c-4b39-bc7c-353d2ddf382e",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d49f372e-c4ee-47bd-bc98-e3877fabaf9e",
       "value": "WEBC2-YAHOO"
     },
@@ -4654,13 +5288,23 @@
       "value": "SNUGRIDE"
     },
     {
-      "description": "QUASARRAT is an open-source RAT available at https://github.com/quasar/QuasarRat . The versions used by APT10 (1.3.4.0, 2.0.0.0, and 2.0.0.1) are not available via the public GitHub page, indicating that APT10 has further customized the open source version. The 2.0 versions require a dropper to decipher and launch the AES encrypted QUASARRAT payload. QUASARRAT is a fully functional .NET backdoor that has been used by multiple cyber espionage groups in the past.",
+      "description": "QUASARRAT is an open-source RAT available at https://github.com/quasar/QuasarRat . The versions used by APT10 (1.3.4.0, 2.0.0.0, and 2.0.0.1) are not available via the public GitHub page, indicating that APT10 has further customized the open source version. The 2.0 versions require a dropper to decipher and launch the AES encrypted QUASARRAT payload. QUASARRAT is a fully functional .NET backdoor that has been used by multiple cyber espionage groups in the past.\nQUASARRAT is a publicly available Windows backdoor. It may visit a website, download, upload, and execute files. QUASARRAT may acquire system information, act as a remote desktop or shell, or remotely activate the webcam. The backdoor may also log keystrokes and steal passwords from commonly used browsers and FTP clients. QUASARRAT was originally named xRAT before it was renamed by the developers in August 2015. Availability: Public",
       "meta": {
         "refs": [
           "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html",
-          "https://researchcenter.paloaltonetworks.com/2017/10/unit42-tracking-subaat-targeted-phishing-attacks-point-leader-threat-actors-repository/"
+          "https://researchcenter.paloaltonetworks.com/2017/10/unit42-tracking-subaat-targeted-phishing-attacks-point-leader-threat-actors-repository/",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
       "uuid": "4d58ad7d-b5ee-4efb-b6af-6c70aadb326a",
       "value": "QUASARRAT"
     },
@@ -4688,6 +5332,15 @@
           "https://www.fireeye.com/blog/threat-research/2017/04/cve-2017-0199_useda.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "7fc74551-013f-4dd1-8da9-9266edcc45d0",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "635d260f-39d9-4d3f-99ec-d2560cb5d694",
       "value": "LATENTBOT"
     },
@@ -4951,6 +5604,15 @@
           "https://github.com/misterch0c/shadowbroker"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "d8305201-9fec-4e6b-9eec-7ebb756364e2",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d20f9a41-db27-4d53-995e-547f86ff3d1e",
       "value": "ODDJOB"
     },
@@ -5026,6 +5688,15 @@
           "https://www.fireeye.com/blog/threat-research/2010/10/feodosoff-a-new-botnet-on-the-rise.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "66781866-f064-467d-925d-5e5f290352f0",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "372cdc12-d909-463c-877a-175f97f7abb5",
       "value": "feodo"
     },
@@ -5043,6 +5714,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "3d3da4c0-004c-400c-9da6-f83fd35d907e",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "1d9fbf33-faea-40c1-b543-c7b39561f0ff",
@@ -5055,6 +5733,15 @@
           "https://www.us-cert.gov/ncas/alerts/TA17-117A"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a70e93a7-3578-47e1-9926-0818979ed866",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "179f7228-6fcf-4664-a084-57bd296d0cde",
       "value": "REDLEAVES"
     },
@@ -5139,6 +5826,15 @@
           "https://securingtomorrow.mcafee.com/mcafee-labs/banload-trojan-targets-brazilians-with-malware-downloads/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "30a61fa9-4bd1-427d-9382-ff7c33bd7043",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d279bc1c-baa6-49aa-ab1b-7d012ae8db4e",
       "value": "Banload"
     },
@@ -5178,6 +5874,15 @@
           "https://www.arbornetworks.com/blog/asert/lockpos-joins-flock/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "d2c111bf-ba0d-498a-8ca8-4cc508855872",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "c740c46b-1d95-42b5-ac3d-2bbab071b859",
       "value": "LockPoS"
     },
@@ -5240,6 +5945,15 @@
           "https://www.bleepingcomputer.com/news/security/report-ties-north-korean-attacks-to-new-malware-linked-by-word-macros/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "f3cbe9ca-e65e-41af-8eb2-1e9877434124",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "9e4fd0d3-9736-421c-b1e1-96c1d3665c80",
       "value": "NOKKI"
     },
@@ -5302,6 +6016,15 @@
           "webshell"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a98a04e5-1f86-44b8-91ff-dbe1534782ba",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "9334c430-0d83-4893-8982-66a1dc1a2b11",
       "value": "TwoFace"
     },
@@ -5417,6 +6140,15 @@
           "https://www.arbornetworks.com/blog/asert/formidable-formbook-form-grabber/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "8378b417-605e-4196-b31f-a0c96d75aa50",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "c7e7063b-b2a2-4046-8a19-94dea018eaa0",
       "value": "FormBook"
     },
@@ -5446,6 +6178,15 @@
           "https://researchcenter.paloaltonetworks.com/2017/11/unit42-oilrig-deploys-alma-communicator-dns-tunneling-trojan/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a0881a0c-e677-495b-b475-290af09bb716",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "45de0d28-5a20-4190-ae21-68067e36e316",
       "value": "ALMA Communicator"
     },
@@ -5723,6 +6464,15 @@
           "http://blog.trendmicro.com/trendlabs-security-intelligence/dissecting-prilex-cutlet-maker-atm-malware-families/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a0899fec-161d-4ba8-9594-8b5620c21705",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "523e8772-0610-424c-bcfb-9123bcb8328f",
       "value": "PRILEX"
     },
@@ -5773,6 +6523,15 @@
           "https://www.proofpoint.com/sites/default/files/pfpt-us-wp-north-korea-bitten-by-bitcoin-bug.pdf"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "c07f6484-0669-44b7-90e6-f642e316d277",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "5629bc84-58eb-42d9-adc6-cd0eeb08ccaf",
       "value": "PowerSpritz"
     },
@@ -5802,6 +6561,15 @@
           "http://blog.trendmicro.com/trendlabs-security-intelligence/ratankba-watering-holes-against-enterprises/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "eead20f5-6a30-4700-8d14-cfb2d42eaff0",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "64b3c66b-fc70-4b5a-83a9-866cde2ccb0b",
       "value": "Ratankba"
     },
@@ -5862,6 +6630,13 @@
           "dest-uuid": "c57a4168-cd09-4611-a665-bbcede80f42b",
           "tags": [
             "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "333e2e87-b9b0-4e2e-9ed9-7259c55a93db",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
           ],
           "type": "similar"
         }
@@ -6032,6 +6807,13 @@
           "dest-uuid": "d1482c9e-6af3-11e8-aa8e-279274bd10c7",
           "tags": [
             "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "592f7cc6-1e07-4d83-8082-aef027e9f1e2",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
           ],
           "type": "similar"
         }
@@ -6718,6 +7500,15 @@
           "StalinScreamer"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "8c38460b-fcfd-434e-b258-875854c6aff6",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "50eb8c54-5828-11e8-8d6b-232bb9329fc0",
       "value": "StalinLocker"
     },
@@ -6730,6 +7521,15 @@
           "https://www.fortinet.com/blog/threat-research/defending-against-the-new-vpnfilter-botnet.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "5ad30da2-2645-4893-acd9-3f8e0fbb5500",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "895d769e-b288-4977-a4e1-7d64eb134bf9",
       "value": "VPNFilter"
     },
@@ -7284,6 +8084,15 @@
           "https://researchcenter.paloaltonetworks.com/2018/09/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "ee54fc1e-c574-4836-8cdb-992ac38cef32",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "10c981cc-4ef1-4719-8ed7-c5e4c2f6c7a3",
       "value": "Xbash"
     },
@@ -7295,6 +8104,15 @@
           "https://www.bleepingcomputer.com/news/security/lojax-command-and-control-domains-still-active/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "15228ae0-26f9-44d8-8d6e-87b0bd2d2aba",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "6d53a74e-c8a5-11e8-a123-332e4eaac9bb",
       "value": "LoJax"
     },
@@ -7305,6 +8123,15 @@
           "https://www.bleepingcomputer.com/news/security/new-chainshot-malware-found-by-cracking-512-bit-rsa-key/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "36f9a5e0-9a78-4b9a-9072-1596c91b59b6",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "a032460e-c54c-11e8-9965-43b7b6469a65",
       "value": "Chainshot"
     },
@@ -7320,6 +8147,15 @@
     },
     {
       "description": "Treasury has identified a sophisticated cyber-enabled ATM cash out campaign we are calling FASTCash. FASTCash has been active since late 2016 targeting banks in Africa and Asia to remotely compromise payment switch application servers within banks to facilitate fraudulent transactions, primarily involving ATMs, to steal cash equivalent to tens of millions of dollars. FBI has attributed malware used in this campaign to the North Korean government. We expect FASTCash to continue targeting retail payment systems vulnerable to remote exploitation.",
+      "related": [
+        {
+          "dest-uuid": "e8a04177-6a91-46a6-9f63-6a9fac4dfa02",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "e306fe62-c708-11e8-89f2-073e396e5403",
       "value": "FASTCash"
     },
@@ -7333,6 +8169,15 @@
           "Zekapab"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "973124e2-0d84-4be5-9c8e-3ff16bb43b42",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "8a2ae47a-c7b2-11e8-b223-ab4d8f78f3ef",
       "value": "Zebrocy"
     },
@@ -7342,6 +8187,15 @@
           "https://malware.dontneedcoffee.com/2017/10/coalabot-http-ddos-bot.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "7acd9a27-f550-4c47-9fc8-429b61b04217",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "92628a72-c874-11e8-a094-ebbb3bd1f412",
       "value": "CoalaBot"
     },
@@ -7368,6 +8222,15 @@
           "Dark Pulsar"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "1aecd6eb-80e2-4598-8504-d93f69c7a8f0",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "7e9f46aa-d5d1-11e8-b782-e71d52d8ac7c",
       "value": "DarkPulsar"
     },
@@ -7446,6 +8309,15 @@
           "https://www.alienvault.com/forums/discussion/17301/alienvault-labs-threat-intelligence-update-for-usm-anywhere-march-25-march-31-2018"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "0db05333-2214-49c3-b469-927788932aaa",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "0a339826-d5f8-11e8-b520-5b93fe65a08e",
       "value": "GhostMiner"
     },
@@ -7507,6 +8379,15 @@
           "https://www.bleepingcomputer.com/news/security/new-kingminer-threat-shows-cryptominer-evolution/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "04d95343-fd44-471d-bfe7-908994a98ea7",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "a9467439-48d8-4f68-9519-560bb6430f0c",
       "value": "KingMiner"
     },
@@ -7559,6 +8440,15 @@
           "https://www.bleepingcomputer.com/news/security/new-lamepyre-macos-malware-sends-screenshots-to-attacker/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a8e71805-014d-4998-b21e-3125da800124",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "34688253-fea5-4770-bf96-55f45077c347",
       "value": "DarthMiner"
     },
@@ -7601,6 +8491,15 @@
           "UPPERCUT"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a180afcc-d42d-4600-b70f-af27aaf851b7",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "588b97ff-3434-4aa1-a5fd-815e1bb0178b",
       "value": "ANEL"
     },
@@ -7611,6 +8510,15 @@
           "https://unit42.paloaltonetworks.com/new-babyshark-malware-targets-u-s-national-security-think-tanks/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "8abdd40c-d79a-4353-80e3-29f8a4229a37",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "78ed653d-2d76-4a99-849e-1509e4573c32",
       "value": "BabyShark"
     },
@@ -7686,6 +8594,15 @@
           "https://blog.talosintelligence.com/2019/02/combing-through-brushaloader.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "75a03c4f-8a97-4fc0-a69e-b2e73e4564fc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "e1ca79ea-5628-4266-bb36-3892c7126ef4",
       "value": "Brushaloader"
     },
@@ -7696,6 +8613,15 @@
           "https://blog.talosintelligence.com/2019/04/dnspionage-brings-out-karkoff.html"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a45c16d9-6945-428c-af46-0436903f9329",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "a9fc6d3d-09d5-45c3-a91e-e8c61ef37908",
       "value": "Karkoff"
     },
@@ -7706,6 +8632,15 @@
           "https://malware.lu/assets/files/articles/RAP003_KimJongRAT-Stealer_Analysis.1.0.pdf"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "61edd17b-322d-45dc-a6a0-31c13ec2338e",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "3160f772-d458-4bff-970c-1c0431238803",
       "value": "KimJongRAT"
     },
@@ -7726,6 +8661,15 @@
           "https://blog.talosintelligence.com/2019/04/jasperloader-targets-italy.html?m=1"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "286a14a1-7113-4bed-97ce-8db41b312a51",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d8de6b56-9950-4389-83b8-4fc3262dc4c9",
       "value": "JasperLoader"
     },
@@ -7737,6 +8681,15 @@
           "https://techcrunch.com/2019/04/16/scranos-rootkit-passwords-payments/?guccounter=1&guce_referrer_us=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_cs=MrGSn18TmNoWovpLbekFYA"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "b5d90140-f307-402c-9d7f-9cdf21a7cb31",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "5f0f6af2-b644-49a6-8f68-5d4ca58c989e",
       "value": "Scranos"
     },
@@ -7760,6 +8713,13 @@
           "dest-uuid": "dd919e75-57e8-4e5c-9451-8be6e734f1f3",
           "tags": [
             "estimative-language:likelihood-probability=\"roughly-even-chance\""
+          ],
+          "type": "similar"
+        },
+        {
+          "dest-uuid": "826c31ca-2617-47e4-b236-205da3881182",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
           ],
           "type": "similar"
         }
@@ -7789,6 +8749,13 @@
             "estimative-language:likelihood-probability=\"roughly-even-chance\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "8666afcc-8cc2-4856-83de-b7e8b4309367",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "dd919e75-57e8-4e5c-9451-8be6e734f1f3",
@@ -7816,6 +8783,13 @@
             "estimative-language:likelihood-probability=\"roughly-even-chance\""
           ],
           "type": "similar"
+        },
+        {
+          "dest-uuid": "a51b82ba-7e32-4a8e-b5d0-8d0441bdcce4",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "80365d3a-6d46-4195-a772-364749a6dc06",
@@ -7829,6 +8803,15 @@
           "https://unit42.paloaltonetworks.com/bookworm-trojan-a-model-of-modular-architecture/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "1b8cfb29-7a63-459a-bc90-c9ea3634b21c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "9ff6e087-6755-447a-b537-8f06c7aa4a85",
       "value": "Bookworm"
     },
@@ -7865,6 +8848,15 @@
           "https://www.gdatasoftware.com/blog/2014/10/23941-com-object-hijacking-the-discreet-way-of-persistence"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "541d5642-0648-4b5a-97b9-81110f273771",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "b2c2d42b-a6a3-4ab0-a013-eb1c7461aca9",
       "value": "COMpfun"
     },
@@ -7900,6 +8892,15 @@
           "https://www.welivesecurity.com/wp-content/uploads/2019/10/ESET_Winnti.pdf"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "51728278-a95c-45a5-9ae0-9897d41d0efb",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "c1815516-aa2a-43d2-9136-78a8feb054b6",
       "value": "ShadowHammer"
     },
@@ -7911,6 +8912,15 @@
           "https://www.welivesecurity.com/2019/11/21/deprimon-default-print-monitor-malicious-downloader/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "17429ed4-6106-4a28-9a76-f19cd476d94b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "c76874cd-0d73-4cbf-8d39-a066900dd4ce",
       "value": "DePriMon"
     },
@@ -7969,6 +8979,15 @@
           "https://www.ibm.com/downloads/cas/OAJ4VZNJ"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "a7e1429f-55bd-41ac-bf45-70c93465d113",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "40fdcaac-a733-4088-9058-7b15a415b943",
       "value": "ZeroCleare"
     },
@@ -7979,6 +8998,15 @@
           "https://mobile.twitter.com/IntezerLabs/status/1215252764080644098"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "daa3d1e4-9265-4f1c-b1bd-9242ac570681",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "ff692a4c-23ff-4e86-a03b-2de8d36bc98f",
       "value": "Dustman"
     },
@@ -7999,6 +9027,15 @@
           "https://seguranca-informatica.pt/targeting-portugal-a-new-trojan-lampion-has-spread-using-template-emails-from-the-portuguese-government-finance-tax/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "97f89048-2a57-48d5-9272-0d1061a14eca",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "dd299e22-bf82-4317-8c81-c6b1f7514571",
       "value": "Lampion"
     },
@@ -8009,6 +9046,15 @@
           "https://labs.bitdefender.com/2020/01/hold-my-beer-mirai-spinoff-named-liquorbot-incorporates-cryptomining/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "3fe8f3db-4861-4e78-8b60-a794fe22ae3f",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "e537e165-ea8b-4e75-8813-6519632d3f6a",
       "value": "LiquorBot"
     },
@@ -8085,15 +9131,24 @@
           "post-exploitation framework"
         ]
       },
-      "related": [],
+      "related": [
+        {
+          "dest-uuid": "1a1d3ea4-972e-4c48-8d85-08d9db8f1550",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "97f26fab-af0e-4da9-b4c1-aec70cace22d",
       "value": "Cobalt Strike"
     },
     {
-      "description": "Penetration testing framework.",
+      "description": "METASPLOIT is a penetration testing framework whose features include vulnerability testing, network enumeration, payload generation and execution, and defense evasion. Availability: Public",
       "meta": {
         "refs": [
-          "https://www.metasploit.com"
+          "https://www.metasploit.com",
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
         ],
         "synonyms": [],
         "type": [
@@ -8134,7 +9189,15 @@
           "RAT"
         ]
       },
-      "related": [],
+      "related": [
+        {
+          "dest-uuid": "d84ebd91-58f6-459f-96a1-d028a1719914",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "4fe80228-1142-4e70-9df8-c8f1f3356cfb",
       "value": "WellMess"
     },
@@ -8149,7 +9212,15 @@
           "RAT"
         ]
       },
-      "related": [],
+      "related": [
+        {
+          "dest-uuid": "93ffafbd-a8af-4164-b3ab-9b21e6d09232",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "59266c02-e3c8-47a6-b00c-bbb50c8975e9",
       "value": "WellMail"
     },
@@ -8241,7 +9312,15 @@
           "RAT"
         ]
       },
-      "related": [],
+      "related": [
+        {
+          "dest-uuid": "b7f1abd3-870b-42ca-9bd1-5931126c68d5",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "e1bfe1d9-190c-4cf4-aec8-a8f2c41c7d8b",
       "value": "HyperBro"
     },
@@ -8321,7 +9400,15 @@
           "backdoor"
         ]
       },
-      "related": [],
+      "related": [
+        {
+          "dest-uuid": "69798a1e-1caf-4bc8-b4af-6508d8a26717",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "d357a6ff-00e5-4fcc-8b9e-4a9d98a736e7",
       "value": "RDAT"
     },
@@ -8347,6 +9434,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "variant-of"
+        },
+        {
+          "dest-uuid": "efa01fef-7faf-4bb2-8630-b3a237df882a",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "aba3fd7d-87cc-4266-82a1-d458ae299266",
@@ -8367,6 +9461,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "used-by"
+        },
+        {
+          "dest-uuid": "9a3429d7-e4a8-43c5-8786-0b3a1c841a5f",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "1e912590-c879-4a9c-81b9-2d31e82ac718",
@@ -8393,6 +9494,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "variant-of"
+        },
+        {
+          "dest-uuid": "309f9be7-8824-4452-90b3-cef81fd10099",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "6c562458-7970-4d61-aded-1fe4a9002404",
@@ -8447,6 +9555,15 @@
           "Loader"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "e30f2243-9e69-4b09-97ab-1643929b97ad",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "2214b113-6942-494f-94b7-576e74fccdb5",
       "value": "Matanbuchus"
     },
@@ -8481,6 +9598,15 @@
           "https://www.prevailion.com/latest-targets-of-cyber-group-lyceum/"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "d00c8f94-d6b5-40b7-b167-fc546c5dec38",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "9ea6d29e-00a7-4042-9bc5-31b1adeee6ec",
       "value": "Shark"
     },
@@ -8529,6 +9655,13 @@
         {
           "dest-uuid": "68d8c25b-8595-4c20-a5c7-a11a2a34b717",
           "type": "used-by"
+        },
+        {
+          "dest-uuid": "185d8b28-0179-4ec6-a3c8-201b1936b9aa",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "7d17dabf-a68e-4eda-a18f-26868ced8e73",
@@ -8564,6 +9697,15 @@
           "https://www.mandiant.com/resources/blog/melting-unc2198-icedid-to-ransomware-operations"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "e9afcd80-c1c6-4194-af32-133fe31e835f",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "2bea2cc9-c1cc-453d-a483-541b895867d1",
       "value": "MOUSEISLAND"
     },
@@ -8575,6 +9717,15 @@
           "https://blogs.blackberry.com/en/2022/07/gootloader-from-seo-poisoning-to-multi-stage-downloader"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "5b2569e5-aeb2-4708-889f-c6d598bd5e14",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "0bdb6f1c-1229-4556-a535-7444ddfbd7a9",
       "value": "GootLoader"
     },
@@ -8596,6 +9747,13 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "related-to"
+        },
+        {
+          "dest-uuid": "fa47d59d-7251-468f-9d84-6e1ba21887db",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "6fc4beee-b922-4d25-833d-8fb574a3c56e",
@@ -8631,6 +9789,15 @@
           "Worm"
         ]
       },
+      "related": [
+        {
+          "dest-uuid": "34b3a45b-e522-4342-91c8-b6aad9817f99",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
       "uuid": "70dc3e92-9b3b-4fc1-abd2-d98985d83225",
       "value": "Raspberry Robin"
     },
@@ -8687,11 +9854,747 @@
             "estimative-language:likelihood-probability=\"likely\""
           ],
           "type": "used-by"
+        },
+        {
+          "dest-uuid": "cff35ce3-8d6f-417b-ae6c-a9e6a60ee26c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
         }
       ],
       "uuid": "cd32b19e-c365-4efc-9998-548e50e04a4c",
       "value": "FakeUpdates"
+    },
+    {
+      "description": "Banking trojan named TgToxic (detected by Trend Micro as AndroidOS_TgToxic based on its special encrypted filename) embedded in multiple fake apps.",
+      "meta": {
+        "refs": [
+          "https://www.trendmicro.com/en_us/research/23/b/tgtoxic-malware-targets-southeast-asia-android-users.html"
+        ]
+      },
+      "uuid": "55d5853c-393e-449b-ab2b-871e3fe45288",
+      "value": "TgToxic"
+    },
+    {
+      "description": "According to Proofpoint, WasabiSeed is a simple VBS downloader which repeatedly uses Windows Installer to connect to the C2 server looking for MSI packages to download and run. Proofpoint showed that it downloads and executes first a second MSI file containing Screenshotter.",
+      "meta": {
+        "refs": [
+          "https://www.proofpoint.com/us/blog/threat-insight/screentime-sometimes-it-feels-like-somebodys-watching-me"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "54c03b3c-6f97-46ea-a93f-f07bfd5cdd36",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "f3b7e302-152b-4c4e-85c2-82733b78d13f",
+      "value": "WasabiSeed"
+    },
+    {
+      "description": "According to Proofpoint, this is a utility with a single function of taking a JPG screenshot of the user's desktop and submitting it to a remote C2 via a POST to a hardcoded IP address. This is helpful to the threat actor during the reconnaissance and victim profiling stage.",
+      "meta": {
+        "refs": [
+          "https://www.proofpoint.com/us/blog/threat-insight/screentime-sometimes-it-feels-like-somebodys-watching-me"
+        ]
+      },
+      "uuid": "49ca568f-b6e4-49ff-963e-796f8207d185",
+      "value": "Screenshotter"
+    },
+    {
+      "description": "According to Proofpoint, this is a Lua-based malware likely used by a nation-state sponsored attacker used to target European government personnel involved in managing the logistics of refugees fleeing Ukraine.",
+      "meta": {
+        "refs": [
+          "https://www.proofpoint.com/us/blog/threat-insight/asylum-ambuscade-state-actor-uses-compromised-private-ukrainian-military-emails",
+          "https://blogs.blackberry.com/en/2022/03/threat-thursday-sunseed-malware"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "a89f7e01-b049-4d09-aca3-ce19d91c4544",
+          "tags": [
+            "estimative-language:likelihood-probability=\"almost-certain\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "54c03b3c-6f97-46ea-a93f-f07bfd5cdd36",
+      "value": "SunSeed"
+    },
+    {
+      "description": "According to Proofpoint, the A(uto)H(ot)K(key) Bot is a collection of separate AutoHotKey scripts. The bot's main component is an infinite loop that polls and downloads additional AHK scripts. The bot can load a stealer like Rhadamanthys and can check if the machine is part of an Active Directory domain.",
+      "meta": {
+        "refs": [
+          "https://www.proofpoint.com/us/blog/threat-insight/screentime-sometimes-it-feels-like-somebodys-watching-me",
+          "https://research.checkpoint.com/2019/finteam-trojanized-teamviewer-against-government-targets/",
+          "https://www.trendmicro.com/en_us/research/19/d/potential-targeted-attack-uses-autohotkey-and-malicious-script-embedded-in-excel-file-to-avoid-detection.html",
+          "https://www.trendmicro.com/en_us/research/20/l/stealth-credential-stealer-targets-us-canadian-bank-customers.html"
+        ]
+      },
+      "uuid": "5c7fa5e1-352a-41c3-8e55-744e5fa88793",
+      "value": "AHK Bot"
+    },
+    {
+      "description": "A tool first used in October 2022, abusing the Notion service to communicate and download further malicious files. Two versions of this tool have been observed.\n\nSNOWYAMBER is a dropper that was used in an espionage campaign significantly overlapping with publicly described activity linked to the APT29 and NOBELIUM activity sets. SNOWYAMBER abuses the NOTION collaboration service as a communication channel. It does not contain any other capabilities aside from downloading and executing 2nd stage. To bypass security products, SNOWYAMBER uses several antidetection and obfuscation techniques, including string encryption, dynamic API resolving, EDR/AV unhooking, and direct syscalls.",
+      "meta": {
+        "refs": [
+          "https://www.gov.pl/web/baza-wiedzy/espionage-campaign-linked-to-russian-intelligence-services",
+          "https://www.gov.pl/attachment/6e085a2c-ac05-4b62-9423-5d6e9ef730bf",
+          "https://www.gov.pl/attachment/ee91f24d-3e67-436d-aa50-7fa56acf789d"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b2056ff0-00b9-482e-b11c-c771daa5f28a",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "d7247cf9-13b6-4781-b789-a5f33521633b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "2ee5ed7a-c4d0-40be-a837-20817474a15b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "5c807e49-dc90-4f80-b044-49bb990acb61",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "uses"
+        }
+      ],
+      "uuid": "0125ef58-2675-426f-90eb-0b189961199a",
+      "value": "SNOWYAMBER"
+    },
+    {
+      "description": "Used for the first time in February 2023. This tool is distinguished from the others by the embedded code that runs the COBALT STRIKE tool.\n\nHALFRIG is a stager for CobaltStrike Beacon that was used in an espionage campaign significantly overlapping with publicly described activity linked to the APT29 and NOBELIUM activity sets. HALFRIG has significant code overlap with the QUARTERRIG and it is highly probable that it was developed by the same team.",
+      "meta": {
+        "refs": [
+          "https://www.gov.pl/web/baza-wiedzy/espionage-campaign-linked-to-russian-intelligence-services",
+          "https://www.gov.pl/attachment/64193e8d-05e2-4cbf-bb4c-5f58da21fefb",
+          "https://www.gov.pl/attachment/6e085a2c-ac05-4b62-9423-5d6e9ef730bf"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b2056ff0-00b9-482e-b11c-c771daa5f28a",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "d7247cf9-13b6-4781-b789-a5f33521633b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "2ee5ed7a-c4d0-40be-a837-20817474a15b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "f169f0b3-fe4d-40e5-a443-2561c98eb67e",
+      "value": "HALFRIG"
+    },
+    {
+      "description": "A tool first used in March 2023, sharing part of the code with HALFRIG. Two versions of this tool were observed.\n\nQUARTERRIG is a dropper that was used in an espionage campaign significantly overlapping with publicly described activity linked to the APT29 and NOBELIUM activity sets. QUARTERRIG does not contain any other capabilities aside from downloading and executing 2nd stage. To bypass security products, QUARTERRIG heavily relies on obfuscation based on opaque predicates and multi-stage execution, interweaving shellcode and PE files. HALFRIG and QUARTERRIG share some of the codebase, suggesting that QUARTERRIG authors have access to both HALFRIG source code and the same obfuscation libraries.",
+      "meta": {
+        "refs": [
+          "https://www.gov.pl/web/baza-wiedzy/espionage-campaign-linked-to-russian-intelligence-services",
+          "https://www.gov.pl/attachment/6f51bb1a-3ad2-461c-a16d-408915a56f77",
+          "https://www.gov.pl/attachment/6e085a2c-ac05-4b62-9423-5d6e9ef730bf"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "b2056ff0-00b9-482e-b11c-c771daa5f28a",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "d7247cf9-13b6-4781-b789-a5f33521633b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "2ee5ed7a-c4d0-40be-a837-20817474a15b",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "2d5072db-64e2-4d81-9b3a-3aa76cfa978b",
+      "value": "QUARTERRIG"
+    },
+    {
+      "description": "ICONICSTEALER is a C/C++ data miner that collects application configuration data as well as browser history.",
+      "meta": {
+        "refs": [
+          "https://www.mandiant.com/resources/blog/3cx-software-supply-chain-compromise"
+        ]
+      },
+      "uuid": "1dca0cec-920e-47d4-a848-ed417f4012e8",
+      "value": "ICONICSTEALER"
+    },
+    {
+      "description": "DAVESHELL is shellcode that functions as an in-memory dropper. Its embedded payload is mapped into memory and executed.",
+      "meta": {
+        "refs": [
+          "https://www.mandiant.com/resources/blog/3cx-software-supply-chain-compromise"
+        ]
+      },
+      "uuid": "0ca56007-de60-41b6-99a6-3b7d9dd737d4",
+      "value": "DAVESHELL"
+    },
+    {
+      "description": "SigFlip is a tool for patching authenticode signed PE-COFF files to inject arbitrary code without affecting or breaking the file's signature.",
+      "meta": {
+        "refs": [
+          "https://www.mandiant.com/resources/blog/3cx-software-supply-chain-compromise"
+        ]
+      },
+      "uuid": "832f7b8c-b733-48b5-a186-7482b09fe5be",
+      "value": "SIGFLIP"
+    },
+    {
+      "description": "COLDCAT is a complex downloader. COLDCAT generates unique host identifier information, and beacons it to a C2 that is specified in a separate file via POST request with the data in the cookie header. After a brief handshake, the malware expects base64 encoded shellcode to execute in response.",
+      "meta": {
+        "refs": [
+          "https://www.mandiant.com/resources/blog/3cx-software-supply-chain-compromise"
+        ]
+      },
+      "uuid": "62530fb1-fbce-4b39-91d3-bedc0c37d0fe",
+      "value": "COLDCAT"
+    },
+    {
+      "description": "TAXHAUL is a DLL that, when executed, decrypts a shellcode payload expected at C:\\Windows\\System32\\config\\TxR\\<machine hardware profile GUID>.TXR.0.regtrans-ms. Mandiant has seen TAXHAUL persist via DLL side loading.",
+      "meta": {
+        "refs": [
+          "https://www.mandiant.com/resources/blog/3cx-software-supply-chain-compromise"
+        ]
+      },
+      "uuid": "90ced040-3507-4b81-9e6d-131acde085ab",
+      "value": "TAXHAUL"
+    },
+    {
+      "description": "downloader (?)",
+      "meta": {
+        "refs": [
+          "https://www.mandiant.com/resources/blog/3cx-software-supply-chain-compromise"
+        ]
+      },
+      "uuid": "1e7167b1-b7cc-4808-9817-69d7cbcc82a2",
+      "value": "SUDDENICON"
+    },
+    {
+      "description": "AMADEY is a downloader written in C that retrieves payloads via HTTP. Downloaded payloads are written to disk and executed. Availability: Public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "996c0284-cd30-4ecc-9bde-29bbc4018118",
+      "value": "AMADEY"
+    },
+    {
+      "description": "BENCHMARK is a dropper written in C/C++ that reads a filename and extracts a Base64 encoded payload from a hard-coded path, decodes the payload and drops it to disk. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "b9c0633d-27a8-49ac-a2c0-376e266e1123",
+      "value": "BENCHMARK"
+    },
+    {
+      "description": "BITTERSWEET is a C/C++ Windows downloader. It collects basic system information before downloading the next stage to disk and executing. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "2cda0b1d-ac45-48a2-a582-a24d9d3c185d",
+      "value": "BITTERSWEET"
+    },
+    {
+      "description": "BRAVEPRINCE is a C/C++ downloader. It uses the Daum email service to upload collected system information and download files. Availability: Public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "d7596e75-34c6-46f0-badc-3cb26b41475d",
+      "value": "BRAVEPRINCE"
+    },
+    {
+      "description": "COINTOSS is a C/C++ downloader. It uses the Windows Management Instrumentation command-line (WMIC) utility to download the payload over FTP. COINTOSS then creates and runs a batch script to uninstall itself. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ],
+        "synonyms": [
+          "COINTOSS.XLM"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "3006e4ea-a518-48df-a3f2-4ad9c17773d2",
+      "value": "COINTOSS"
+    },
+    {
+      "description": "DINOLAB is a C/C++ builder. It is used to encrypt and decrypt files, obfuscate VBSscripts, and infect files. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "c95933da-0b83-4324-bd2d-b2cf891ea1b4",
+      "value": "DINOLAB"
+    },
+    {
+      "description": "DRIVEDOWN is a C/C++ Windows downloader capable of executing embedded scripts and downloading stages from OneDrive. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "89ff8321-110f-44bb-b4d9-532b234bd06d",
+      "value": "DRIVEDOWN"
+    },
+    {
+      "description": "GOLDDRAGON is a downloader written in C that retrieves a payload from a remote server via HTTP. The downloaded payload is written to disk and executed. GOLDDRAGON also extracts a payload from a Hangul Word Processor document and writes it to a startup directory. As a result, the new file is executed when the current user logs in. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ],
+        "synonyms": [
+          "GOLDDRAGON.POWERSHELL"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "2297799c-f93c-4903-b9af-32b6b599912c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "similar"
+        }
+      ],
+      "uuid": "170c57a6-326b-4d6a-9f3f-158a0e29abf2",
+      "value": "GOLDDRAGON"
+    },
+    {
+      "description": "EGGHATCH is a C/C++ Windows downloader. It uses mshta.exe to download and execute a script. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "97b32dd9-c39f-4043-ae6b-edde96584e20",
+      "value": "EGGHATCH"
+    },
+    {
+      "description": "GOLDDROP is a C/C++ Windows dropper. It decrypts a resource file, saves it to the file system, and injects it into another process. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "e8428747-7bb6-4f71-bfb1-2e90139ca5db",
+      "value": "GOLDDROP"
+    },
+    {
+      "description": "GOLDSMELT is a C/C++ utility used to close the rundll32.exe process and delete a file likely used for logs. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "396525b4-3d78-4557-87dd-b86e7df0bdf9",
+      "value": "GOLDSMELT"
+    },
+    {
+      "description": "Invoke-Mimikatz is PowerShell script that reflectively loads a Mimikatz credential-stealing DLL into memory. Availability: Public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        },
+        {
+          "dest-uuid": "7f3a035d-d83a-45b8-8111-412aa8ade802",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "uses"
+        }
+      ],
+      "uuid": "0562d52e-a971-4601-bee6-477707df4218",
+      "value": "Invoke-Mimikatz"
+    },
+    {
+      "description": "JURASSICSHELL is a PHP file management web shell that allows the actor to download and upload files. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "5142fb67-0f1f-4d56-9e18-c4525ee37916",
+      "value": "JURASSICSHELL"
+    },
+    {
+      "description": "LANDMARK is a C/C++ Windows launcher that loads and executes a file on disk stored as desktop.r5u. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ],
+        "synonyms": [
+          "LANDMARK.NET"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "3ae8fbe4-6bcb-4a49-9931-c62532bf0499",
+      "value": "LANDMARK"
+    },
+    {
+      "description": "LATEOP is a datamine VisualBasic script that can enumerate a variety of characteristics of a target system as well as execute additional arbitrary VisualBasic content. Some deployments of LATEOP have led to the download and execution of the PASSMARK credential theft payload. In contrast, somedeployments of LATEOP.v2 have originated from BENCHMARK sourced infections. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ],
+        "synonyms": [
+          "LATEOP.V2"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "f8ce3bfe-529b-4fcf-b854-16be80021024",
+      "value": "LATEOP"
+    },
+    {
+      "description": "LONEJOGGER is a downloader/dropper which has been observed targeting cryptocurrency services (including exchanges and investment companies), and uses a .lnk shortcut to download guardrailed HTML Application payloads. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "5bdf163b-0a6e-40b1-a69c-1e306de93db6",
+      "value": "LONEJOGGER"
+    },
+    {
+      "description": "PASSMARK is a credential harvester that steals usernames and passwords from web browsers and email applications. PASSMARK is likely derived from the tool PassView. Availability: Public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "e1b2425b-f80b-46e8-a788-db62ce592b6b",
+      "value": "PASSMARK"
+    },
+    {
+      "description": "PENCILDOWN is a C/C++ Windows based downloader. PENCILDOWN collects basic system information and sends it to the C2 server before receiving the next stage. The next stage is then loaded in memory or executed directly based off a flag in the response. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ],
+        "synonyms": [
+          "PENCILDOWN.ANDROID"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "aa4ba5b8-1dbc-47ac-9645-653f6e421721",
+      "value": "PENCILDOWN"
+    },
+    {
+      "description": "PENDOWN is a downloader written in C++ that retrieves a payload via HTTP. The downloaded file is saved to disk and executed.  Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "d8799cef-775c-4625-871d-8fb17dde8b62",
+      "value": "PENDOWN"
+    },
+    {
+      "description": "PUMPKINBAR is a C/C++ dropper. PUMPKINBAR can contain multiple payloads encoded and embedded within itself. The key to decode each payload is appended at the end of the PUMPKINBAR executable. The payloads are dropped to disk and executed. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "9df0243f-61f5-45da-b8d8-9f61e78242ec",
+      "value": "PUMPKINBAR"
+    },
+    {
+      "description": "SLIMCURL is a C/C++ downloader. It contains the next stage as a Base64 encoded Google Drive link. The next stage is downloaded using cURL. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "b12eb4e9-1c73-4394-91cd-1b2ee59ca8f5",
+      "value": "SLIMCURL"
+    },
+    {
+      "description": "SPICYTUNA is a VBA downloader. It collects basic system information and is capable of downloading and executing additional stages. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "d6a07a16-d986-4e26-9338-d6ce24732e07",
+      "value": "SPICYTUNA"
+    },
+    {
+      "description": "SWEETDROP is a C/C++ Windows dropper. It drops an embedded binary resource to the file system and executes it. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "6fb05366-be31-4b43-a501-3cc5f7ffd234",
+      "value": "SWEETDROP"
+    },
+    {
+      "description": "VENOMBITE is a C/C++ Windows downloader that has evolved from PENDOWN. It uses the same custom encoding routine, but the network functionality has been moved to an embedded executable. The downloaded file is loaded and executed in memory. Availability: Non-public",
+      "meta": {
+        "refs": [
+          "https://mandiant.widen.net/s/zvmfw5fnjs/apt43-report"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "aac49b4e-74e9-49fa-84f9-e340cf8bafbc",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "used-by"
+        }
+      ],
+      "uuid": "7b002b6e-442c-4c0a-b173-873820c7c731",
+      "value": "VENOMBITE"
     }
   ],
-  "version": 159
+  "version": 167
 }
