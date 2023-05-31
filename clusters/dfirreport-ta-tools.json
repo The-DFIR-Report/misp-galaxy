@@ -11,22 +11,52 @@
   "uuid": "dbdab3e8-50ea-4cf4-9c91-4084ca6b9571",
   "values": [
    {
-	   "description": "Remote Access Software used for legitimate administration but also favored by Threat Actors",
-	   "meta": {
-		   "refs": [
-			   "https://anydesk.com/en",
-			   "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
-			   "https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/",
-			   "https://thedfirreport.com/2022/09/26/bumblebee-round-two/",
-			   "https://thedfirreport.com/2022/08/08/bumblebee-roasts-its-way-to-domain-admin/",
-			   "https://thedfirreport.com/2021/12/13/diavol-ransomware/"
-			   ],
+   "description": "Remote Access Software used for legitimate administration but also favored by Threat Actors",
+   "meta": {
+	   "refs": [
+	   "https://anydesk.com/en",
+	   "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+	   "https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/",
+	   "https://thedfirreport.com/2022/09/26/bumblebee-round-two/",
+	   "https://thedfirreport.com/2022/08/08/bumblebee-roasts-its-way-to-domain-admin/",
+	   "https://thedfirreport.com/2021/12/13/diavol-ransomware/"
+	   ],
         "synonyms": [],
         "type": []
       },
       "uuid": "139aa723-d2b1-4afe-8a89-ae6d257fd332",
       "value": "Anydesk"
    }
+   ,
+  {
+  "description": "Tactical RMM is a remote monitoring & management tool, built with Django and Vue. It uses an agent written in golang and integrates with MeshCentral",
+  "meta": {
+    "refs": [
+      "https://github.com/amidaware/tacticalrmm",
+      "https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/"
+    ],
+    "synonyms": [],
+    "type": []
+  },
+  "uuid": "43c69ca9-a940-48b7-b27f-783b2baf71af",
+  "value": "Tactical RMM"
+  },
+{
+  "description": "SoftPerfect Network Scanner can ping computers, scan ports, discover shared folders and retrieve practically any information about network devices via WMI, SNMP, HTTP, SSH and PowerShell. It also scans for remote services, registry, files and performance counters; offers flexible filtering and display options and exports NetScan results to a variety of formats from XML to JSON.",
+  "meta": {
+    "refs": [
+      "https://www.softperfect.com/products/networkscanner/",
+      "https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/",
+      "https://thedfirreport.com/2022/10/31/follina-exploit-leads-to-domain-compromise/",
+      "https://thedfirreport.com/2021/08/01/bazarcall-to-conti-ransomware-via-trickbot-and-cobalt-strike/",
+      "https://thedfirreport.com/2021/08/01/bazarcall-to-conti-ransomware-via-trickbot-and-cobalt-strike/"
+    ],
+    "synonyms": ["Netscan"],
+    "type": []
+  },
+  "uuid": "fed3340c-ec5f-48b0-8892-71a1c280971d",
+  "value": "SoftPerfect Network Scanner"
+}
    ],
    "version": 1
 }
