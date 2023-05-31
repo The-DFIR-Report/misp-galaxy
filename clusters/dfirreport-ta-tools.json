@@ -56,6 +56,39 @@
   },
   "uuid": "fed3340c-ec5f-48b0-8892-71a1c280971d",
   "value": "SoftPerfect Network Scanner"
+},
+{
+  "description": "Splashtop Streamer is the local client used by the Splashtop platform to enable remote access to a system. This tool is commonly bundled with other software like Atera and used by threat actors for additional persistence and command and control.",
+  "meta": {
+    "refs": [
+      "https://www.splashtop.com/streamer",
+      "https://www.splashtop.com/blog/remote-access-computer",
+      "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+      "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+      "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+      "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+      "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/"
+    ],
+    "synonyms": [],
+    "type": []
+  },
+  "uuid": "8638b97a-ea48-4907-a5cd-d6b73277124c",
+  "value": "Splashtop Streamer"
+},
+{
+  "description": "Atrea is a remote management and monitoring (RMM) platform that threat actors have abused for using as a means of persistence and command and control into infected networks. The tool is often paired with Splashtop Streamer to allow for remote access to infected systems.",
+  "meta": {
+    "refs": [
+      "https://www.atera.com/",
+      "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+      "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/",
+      "https://thedfirreport.com/2023/04/03/malicious-iso-file-leads-to-domain-wide-ransomware/"
+    ],
+    "synonyms": [],
+    "type": []
+  },
+  "uuid": "31042214-010c-4359-8db8-be8a74750ff9",
+  "value": "Atera"
 }
    ],
    "version": 1
