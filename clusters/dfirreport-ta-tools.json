@@ -89,6 +89,19 @@
   },
   "uuid": "31042214-010c-4359-8db8-be8a74750ff9",
   "value": "Atera"
+},
+{
+  "description": "An open source, multi-platform, self-hosted, remote device management tool.",
+  "meta": {
+    "refs": [
+      "https://www.meshcommander.com/meshcentral2",
+      "https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/"
+    ],
+    "synonyms": [],
+    "type": []
+  },
+  "uuid": "840353d9-c967-4524-8b9c-4079ec343f0b",
+  "value": "MeshCentral"
 }
    ],
    "version": 1
