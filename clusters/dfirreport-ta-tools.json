@@ -102,6 +102,18 @@
   },
   "uuid": "840353d9-c967-4524-8b9c-4079ec343f0b",
   "value": "MeshCentral"
+},
+{
+  "description": "Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH. Single executable including both client and server. Written in Go (golang). Chisel is mainly useful for passing through firewalls, though it can also be used to provide a secure endpoint into your network.",
+  "meta": {
+    "refs": [
+      "https://github.com/jpillora/chisel"
+    ],
+    "synonyms": [],
+    "type": []
+  },
+  "uuid": "3487afda-efef-4463-80c0-a1e17ced2b89",
+  "value": "Chisel"
 }
    ],
    "version": 1
