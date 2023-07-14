@@ -8328,10 +8328,12 @@
       "description": "VENOM SPIDER is the developer of a large toolset that includes SKID, VenomKit and Taurus Loader. Under the moniker 'badbullzvenom', the adversary has been an active member of Russian underground forums since at least 2012, specializing in the identification of vulnerabilities and the subsequent development of tools for exploitation, as well as for gaining and maintaining access to victim machines and carding services. Recent advertisements for the malware indicate that VENOM SPIDER limits the sale and use of its tools, selling modules only to trusted affiliates. This preference can be seen in the fact that adversaries observed using the tools include the targeted criminal adversary COBALT SPIDER and BGH adversaries WIZARD SPIDER and PINCHY SPIDER.",
       "meta": {
         "refs": [
-          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf"
+          "https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2020CrowdStrikeGlobalThreatReport.pdf",
+          "https://www.esentire.com/web-native-pages/the-hunt-for-venom-spider-part-2"
         ],
         "synonyms": [
-          "badbullzvenom"
+          "badbullzvenom",
+          "badbullz"
         ]
       },
       "uuid": "86b4e2f3-8bbf-48fd-9d27-034d3ac3b187",
@@ -11339,6 +11341,26 @@
       "value": "APT43"
     },
     {
+      "description": "Hagga is believed to have been using Agent Tesla, 2021’s sixth most prevalent malware, to steal sensitive information from his victims since the latter part of 2021.",
+      "meta": {
+        "refs": [
+          "https://www.team-cymru.com/post/an-analysis-of-infrastructure-linked-to-the-hagga-threat-actor",
+          "https://otx.alienvault.com/pulse/62cfe4ef3415be5f83be81d1"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "f8cd62cb-b9d3-4352-8f46-0961cfde104c",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "uses"
+        }
+      ],
+      "uuid": "1e318d85-79c7-4988-83b7-ff86a974786c",
+      "value": "Hagga"
+    },
+    {
       "description": "[Microsoft] Volt Typhoon, a state-sponsored actor based in China that typically focuses on espionage and information gathering. Microsoft assesses with moderate confidence that this Volt Typhoon campaign is pursuing development of capabilities that could disrupt critical communications infrastructure between the United States and Asia region during future crises.\n\n[Secureworks] BRONZE SILHOUETTE likely operates on behalf the PRC. The targeting of U.S. government and defense organizations for intelligence gain aligns with PRC requirements, and the tradecraft observed in these engagements overlap with other state-sponsored Chinese threat groups.",
       "meta": {
         "country": "CN",
@@ -11352,7 +11374,43 @@
       },
       "uuid": "f02679fa-5e85-4050-8eb5-c2677d93306f",
       "value": "Volt Typhoon"
+    },
+    {
+      "description": "The campaign, called SmugX, overlaps with previously reported activity by Chinese APT actors RedDelta and Mustang Panda. Although those two correlate to some extent with Camaro Dragon, there is insufficient evidence to link the SmugX campaign to the Camaro Dragon group.\n\nThe campaign uses new delivery methods to deploy (most notably – HTML Smuggling) a new variant of PlugX, an implant commonly associated with a wide variety of Chinese threat actors. Although the payload itself remains similar to the one found in older PlugX variants, its delivery methods results in low detection rates, which until recently helped the campaign fly under the radar.",
+      "meta": {
+        "refs": [
+          "https://research.checkpoint.com/2023/chinese-threat-actors-targeting-europe-in-smugx-campaign/"
+        ]
+      },
+      "uuid": "c95520c1-0a27-42aa-9853-bf5f0f3bc074",
+      "value": "SmugX"
+    },
+    {
+      "description": "Likely Chinese state-sponsored threat activity group RedDelta targeting organizations within Europe and Southeast Asia using a customized variant of the PlugX backdoor. Since at least 2019, RedDelta has been consistently active within Southeast Asia, particularly in Myanmar and Vietnam, but has also routinely adapted its targeting in response to global geopolitical events. This is historically evident through the group’s targeting of the Vatican and other Catholic organizations in the lead-up to 2021 talks between Chinese Communist Party (CCP) and Vatican officials, as well as throughout 2022 through the group’s shift towards increased targeting of European government and diplomatic entities following Russia’s invasion of Ukraine.\n\nDuring the 3-month period from September through November 2022, RedDelta has regularly used an infection chain employing malicious shortcut (LNK) files, which trigger a dynamic-link library (DLL) search-order-hijacking execution chain to load consistently updated PlugX versions. Throughout this period, the group repeatedly employed decoy documents specific to government and migration policy within Europe. Of note, we identified a European government department focused on trade communicating with RedDelta command-and-control (C2) infrastructure in early August 2022. This activity commenced on the same day that a RedDelta PlugX sample using this C2 infrastructure and featuring an EU trade-themed decoy document surfaced on public malware repositories. We also identified additional probable victim entities within Myanmar and Vietnam regularly communicating with RedDelta C2 infrastructure.\n\nRedDelta closely overlaps with public industry reporting under the aliases BRONZE PRESIDENT, Mustang Panda, TA416, Red Lich, and HoneyMyte.",
+      "meta": {
+        "refs": [
+          "https://go.recordedfuture.com/hubfs/reports/cta-2022-1223.pdf"
+        ]
+      },
+      "related": [
+        {
+          "dest-uuid": "78bf726c-a9e6-11e8-9e43-77249a2f7339",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "overlaps"
+        },
+        {
+          "dest-uuid": "420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",
+          "tags": [
+            "estimative-language:likelihood-probability=\"likely\""
+          ],
+          "type": "overlaps"
+        }
+      ],
+      "uuid": "fceed509-938e-4f9e-acd4-76e6c28dc6f1",
+      "value": "RedDelta"
     }
   ],
-  "version": 274
+  "version": 275
 }
